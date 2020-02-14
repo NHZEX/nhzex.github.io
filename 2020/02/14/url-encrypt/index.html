@@ -58,18 +58,18 @@
   };
 </script>
 
-  <meta name="description" content="引用 https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx  生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $k">
+  <meta name="description" content="生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $key));  响应Url1234$key    = &apos;123456789&apos;;$enPath = &apos;/BRdAi_B6J4I4DMZc4pV1IOBZAfOK0Coe1-A">
 <meta name="keywords" content="nginx,url">
 <meta property="og:type" content="article">
 <meta property="og:title" content="资源URL路径加密">
 <meta property="og:url" content="https://nhzex.github.io/2020/02/14/url-encrypt/index.html">
 <meta property="og:site_name" content="ZxHuang Blog">
-<meta property="og:description" content="引用 https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx  生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $k">
+<meta property="og:description" content="生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $key));  响应Url1234$key    = &apos;123456789&apos;;$enPath = &apos;/BRdAi_B6J4I4DMZc4pV1IOBZAfOK0Coe1-A">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2020-02-14T03:03:20.000Z">
+<meta property="og:updated_time" content="2020-02-14T14:14:06.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="资源URL路径加密">
-<meta name="twitter:description" content="引用 https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx  生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $k">
+<meta name="twitter:description" content="生成Url123$key    = &apos;123456789&apos;;$rawUrl = &apos;/files/demo1/123.mp4&apos;;$enPath = base64_url_encode(encrypt_data($rawUrl, $key));  响应Url1234$key    = &apos;123456789&apos;;$enPath = &apos;/BRdAi_B6J4I4DMZc4pV1IOBZAfOK0Coe1-A">
   <link rel="canonical" href="https://nhzex.github.io/2020/02/14/url-encrypt/">
 
 
@@ -272,7 +272,7 @@
                 
               
 
-              <time title="创建时间：2020-02-14 10:44:31 / 修改时间：11:03:20" itemprop="dateCreated datePublished" datetime="2020-02-14T10:44:31+08:00">2020-02-14</time>
+              <time title="创建时间：2020-02-14 10:44:31 / 修改时间：22:14:06" itemprop="dateCreated datePublished" datetime="2020-02-14T10:44:31+08:00">2020-02-14</time>
             </span>
           
             
@@ -297,7 +297,7 @@
               
                 <span class="post-meta-item-text">本文字数：</span>
               
-              <span>1k</span>
+              <span>1.2k</span>
             </span>
           
             <span class="post-meta-item" title="阅读时长">
@@ -320,14 +320,18 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><ul>
-<li><a href="https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx" target="_blank" rel="noopener">https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx</a></li>
-</ul>
-<h2 id="生成Url"><a href="#生成Url" class="headerlink" title="生成Url"></a>生成Url</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$key    = <span class="string">'123456789'</span>;</span><br><span class="line">$rawUrl = <span class="string">'/files/demo1/123.mp4'</span>;</span><br><span class="line">$enPath = base64_url_encode(encrypt_data($rawUrl, $key));</span><br></pre></td></tr></table></figure>
+        <h2 id="生成Url"><a href="#生成Url" class="headerlink" title="生成Url"></a>生成Url</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$key    = <span class="string">'123456789'</span>;</span><br><span class="line">$rawUrl = <span class="string">'/files/demo1/123.mp4'</span>;</span><br><span class="line">$enPath = base64_url_encode(encrypt_data($rawUrl, $key));</span><br></pre></td></tr></table></figure>
 
 <h2 id="响应Url"><a href="#响应Url" class="headerlink" title="响应Url"></a>响应Url</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">$key    = <span class="string">'123456789'</span>;</span><br><span class="line">$enPath = <span class="string">'/BRdAi_B6J4I4DMZc4pV1IOBZAfOK0Coe1-AD3ciUd_k8sVxryJPoqzA'</span>;</span><br><span class="line">$rawUrl = decrypt_data(base64_url_decode($enPath), $key);</span><br><span class="line"><span class="keyword">$this</span>-&gt;response-&gt;withAddedHeader(<span class="string">'X-Accel-Redirect'</span>, $rawUrl);</span><br></pre></td></tr></table></figure>
 
 <h2 id="nginx-config"><a href="#nginx-config" class="headerlink" title="nginx config"></a>nginx config</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    listen 443 ssl;</span><br><span class="line">    server_name .auth.site;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">        proxy_set_header Upgrade $http_upgrade;</span><br><span class="line">        proxy_set_header Connection upgrade;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_pass http://127.0.0.1:8088;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location /files &#123;</span><br><span class="line">        root /home/vagrant/resources/;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location /vod/ &#123;</span><br><span class="line">        proxy_pass http://10.0.0.1/;</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_set_header Connection &quot;&quot;;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    access_log off;</span><br><span class="line">    error_log  off;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><ul>
+<li><a href="https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx" target="_blank" rel="noopener">https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx</a></li>
+<li><a href="https://stackoverflow.com/questions/40721188/adding-custom-http-headers-to-nginx-x-accel-redirect-via-express-js" target="_blank" rel="noopener">https://stackoverflow.com/questions/40721188/adding-custom-http-headers-to-nginx-x-accel-redirect-via-express-js</a></li>
+<li><a href="https://stackoverflow.com/questions/24507157/adding-custom-http-headers-to-nginx-x-accel-redirect" target="_blank" rel="noopener">https://stackoverflow.com/questions/24507157/adding-custom-http-headers-to-nginx-x-accel-redirect</a></li>
+</ul>
+
     </div>
 
     
@@ -427,7 +431,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#引用"><span class="nav-number">1.</span> <span class="nav-text">引用</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#生成Url"><span class="nav-number">2.</span> <span class="nav-text">生成Url</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#响应Url"><span class="nav-number">3.</span> <span class="nav-text">响应Url</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nginx-config"><span class="nav-number">4.</span> <span class="nav-text">nginx config</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#生成Url"><span class="nav-number">1.</span> <span class="nav-text">生成Url</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#响应Url"><span class="nav-number">2.</span> <span class="nav-text">响应Url</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#nginx-config"><span class="nav-number">3.</span> <span class="nav-text">nginx config</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#资料"><span class="nav-number">4.</span> <span class="nav-text">资料</span></a></li></ol></div>
         
       </div>
       <!--/noindex-->
@@ -528,7 +532,7 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">3k</span>
+    <span title="站点总字数">4k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
