@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>ZxHuang Blog</title>
+  <title>zxin Blog</title>
   
   
-  <link href="/atom.xml" rel="self"/>
+  <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2019-10-05T19:11:03.370Z</updated>
+  <updated>2020-02-23T02:23:36.151Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -14,104 +14,219 @@
     
   </author>
   
-  <generator uri="http://hexo.io/">Hexo</generator>
+  <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test-permalink2</title>
-    <link href="https://nhzex.github.io/2019/10/06/test-permalink2/"/>
-    <id>https://nhzex.github.io/2019/10/06/test-permalink2/</id>
-    <published>2019-10-05T19:09:55.000Z</published>
-    <updated>2019-10-05T19:11:03.370Z</updated>
+    <title>apt走代理</title>
+    <link href="https://nhzex.github.io/apt-proxy"/>
+    <id>https://nhzex.github.io/apt-proxy</id>
+    <published>2020-02-23T02:20:31.000Z</published>
+    <updated>2020-02-23T02:23:36.151Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>测试文章按年分类</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="Use"><a href="#Use" class="headerlink" title="Use"></a>Use</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo http_proxy=http://yourserver apt-get update</span><br></pre></td></tr></table></figure><h2 id="See"><a href="#See" class="headerlink" title="See"></a>See</h2><ul><li><a href="https://askubuntu.com/a/33891">https://askubuntu.com/a/33891</a></li></ul>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;h1 id=&quot;正文&quot;&gt;&lt;a href=&quot;#正文&quot; class=&quot;headerlink&quot; title=&quot;正文&quot;&gt;&lt;/a&gt;正文&lt;/h1&gt;&lt;p&gt;测试文章按年分类&lt;/p&gt;
-
+    <summary type="html">&lt;h2 id=&quot;Use&quot;&gt;&lt;a href=&quot;#Use&quot; class=&quot;headerlink&quot; title=&quot;Use&quot;&gt;&lt;/a&gt;Use&lt;/h2&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pr</summary>
       
     
-    </summary>
     
     
-      <category term="test" scheme="https://nhzex.github.io/categories/test/"/>
     
+    <category term="ubuntu" scheme="https://nhzex.github.io/tags/ubuntu/"/>
+    
+    <category term="apt" scheme="https://nhzex.github.io/tags/apt/"/>
+    
+    <category term="proxy" scheme="https://nhzex.github.io/tags/proxy/"/>
     
   </entry>
   
   <entry>
-    <title>加密文章测试</title>
-    <link href="https://nhzex.github.io/2019/10/06/test-encrypted-post/"/>
-    <id>https://nhzex.github.io/2019/10/06/test-encrypted-post/</id>
-    <published>2019-10-05T18:28:15.000Z</published>
-    <updated>2019-10-05T19:12:20.441Z</updated>
+    <title>资源URL路径加密</title>
+    <link href="https://nhzex.github.io/url-encrypt"/>
+    <id>https://nhzex.github.io/url-encrypt</id>
+    <published>2020-02-14T02:44:31.000Z</published>
+    <updated>2020-02-14T14:12:27.316Z</updated>
     
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="输入密码，查看文章。" />    <label for="hbePass">输入密码，查看文章。</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="4edd82346fba8ba74f5eef3e573bb3b6cf78ca62c19471ba42d99ec67ae6b7de">37005850f0d1f76b27732fa95e3b352721f8b10f15c230fc160999c7bc6cce424202534cba3f0bfe02d77ce810d3a08d14bc5ea324ea29506456fc5f59a42c59a51349141c0cb8429adc144799a3df049d8e331ddfef0ddf973420668a5a778ee6e89f67bb1f93d9cba18449ab261f539485db72349d204d769540936fec1bc7</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
-    
-    <summary type="html">
-    
-      加密内容测试...
-    
-    </summary>
+    <content type="html"><![CDATA[<h2 id="生成Url"><a href="#生成Url" class="headerlink" title="生成Url"></a>生成Url</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$key</span>    = <span class="string">&#x27;123456789&#x27;</span>;</span><br><span class="line"><span class="variable">$rawUrl</span> = <span class="string">&#x27;/files/demo1/123.mp4&#x27;</span>;</span><br><span class="line"><span class="variable">$enPath</span> = base64_url_encode(encrypt_data(<span class="variable">$rawUrl</span>, <span class="variable">$key</span>));</span><br></pre></td></tr></table></figure><h2 id="响应Url"><a href="#响应Url" class="headerlink" title="响应Url"></a>响应Url</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$key</span>    = <span class="string">&#x27;123456789&#x27;</span>;</span><br><span class="line"><span class="variable">$enPath</span> = <span class="string">&#x27;/BRdAi_B6J4I4DMZc4pV1IOBZAfOK0Coe1-AD3ciUd_k8sVxryJPoqzA&#x27;</span>;</span><br><span class="line"><span class="variable">$rawUrl</span> = decrypt_data(base64_url_decode(<span class="variable">$enPath</span>), <span class="variable">$key</span>);</span><br><span class="line"><span class="keyword">$this</span>-&gt;response-&gt;withAddedHeader(<span class="string">&#x27;X-Accel-Redirect&#x27;</span>, <span class="variable">$rawUrl</span>);</span><br></pre></td></tr></table></figure><h2 id="nginx-config"><a href="#nginx-config" class="headerlink" title="nginx config"></a>nginx config</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen 80;</span><br><span class="line">    listen 443 ssl;</span><br><span class="line">    server_name .auth.site;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">        proxy_set_header Upgrade $http_upgrade;</span><br><span class="line">        proxy_set_header Connection upgrade;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_pass http://127.0.0.1:8088;</span><br><span class="line">        </span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location /files &#123;</span><br><span class="line">        root /home/vagrant/resources/;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    location /vod/ &#123;</span><br><span class="line">        proxy_pass http://10.0.0.1/;</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_set_header Connection &quot;&quot;;</span><br><span class="line">        internal;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    access_log off;</span><br><span class="line">    error_log  off;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><ul><li><a href="https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx">https://stackoverflow.com/questions/47936128/encode-and-decode-pathname-in-nginx</a></li><li><a href="https://stackoverflow.com/questions/40721188/adding-custom-http-headers-to-nginx-x-accel-redirect-via-express-js">https://stackoverflow.com/questions/40721188/adding-custom-http-headers-to-nginx-x-accel-redirect-via-express-js</a></li><li><a href="https://stackoverflow.com/questions/24507157/adding-custom-http-headers-to-nginx-x-accel-redirect">https://stackoverflow.com/questions/24507157/adding-custom-http-headers-to-nginx-x-accel-redirect</a></li></ul>]]></content>
     
     
-      <category term="test" scheme="https://nhzex.github.io/categories/test/"/>
+      
+      
+    <summary type="html">&lt;h2 id=&quot;生成Url&quot;&gt;&lt;a href=&quot;#生成Url&quot; class=&quot;headerlink&quot; title=&quot;生成Url&quot;&gt;&lt;/a&gt;生成Url&lt;/h2&gt;&lt;figure class=&quot;highlight php&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;</summary>
+      
     
     
-      <category term="加密" scheme="https://nhzex.github.io/tags/%E5%8A%A0%E5%AF%86/"/>
+    
+    
+    <category term="nginx" scheme="https://nhzex.github.io/tags/nginx/"/>
+    
+    <category term="url" scheme="https://nhzex.github.io/tags/url/"/>
     
   </entry>
   
   <entry>
-    <title>永久连接测试</title>
-    <link href="https://nhzex.github.io/2019/10/06/permalink-test/"/>
-    <id>https://nhzex.github.io/2019/10/06/permalink-test/</id>
-    <published>2019-10-05T18:10:14.000Z</published>
-    <updated>2019-10-05T19:12:25.911Z</updated>
+    <title>ubuntu-vnc-xfce4</title>
+    <link href="https://nhzex.github.io/ubuntu-vnc-xfce4"/>
+    <id>https://nhzex.github.io/ubuntu-vnc-xfce4</id>
+    <published>2020-01-01T08:44:48.000Z</published>
+    <updated>2020-02-23T09:04:00.165Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="测试正文"><a href="#测试正文" class="headerlink" title="测试正文"></a>测试正文</h1><p>。。。。1</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="REF"><a href="#REF" class="headerlink" title="REF"></a>REF</h1><p><a href="https://www.linuxprobe.com/ubuntu-vnc-xfce4.html">https://www.linuxprobe.com/ubuntu-vnc-xfce4.html</a><br><a href="https://www.tightvnc.com/">https://www.tightvnc.com/</a><br><a href="http://blog.shell909090.org/blog/archives/1925/">http://blog.shell909090.org/blog/archives/1925/</a></p><p>runvnc.sh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">vncserver -kill :1</span><br><span class="line">vncserver :1 -geometry 1440x900 -geometry 1920x1080 -geometry 1024x600</span><br></pre></td></tr></table></figure><p>切换分辨率<br>xrandr // 查看可用分辨率<br>xrandr -s Number // 切换到指定分辨率</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">  </span><br><span class="line"># Uncomment the following two lines for normal desktop:</span><br><span class="line"># unset SESSION_MANAGER</span><br><span class="line"># exec /etc/X11/xinit/xinitrc</span><br><span class="line"></span><br><span class="line">[ -x /etc/vnc/xstartup ] &amp;&amp; exec /etc/vnc/xstartup</span><br><span class="line">[ -r $HOME/.Xresources ] &amp;&amp; xrdb $HOME/.Xresources</span><br><span class="line"></span><br><span class="line"># xsetroot -solid grey</span><br><span class="line"># vncconfig -iconic &amp;</span><br><span class="line"># x-terminal-emulator -geometry 80x24+10+10 -ls -title &quot;$VNCDESKTOP Desktop&quot; &amp;</span><br><span class="line"># x-window-manager &amp;</span><br><span class="line"></span><br><span class="line"># xfce4</span><br><span class="line">xfce4-panel &amp;</span><br><span class="line">startxfce4 &amp;</span><br><span class="line">fcitx &amp;</span><br><span class="line">vncconfig -nowin -display :1</span><br></pre></td></tr></table></figure><p>安装输入法</p><p>sudo apt install fcitx-sunpinyin</p><p>vim /etc/environment </p><p>~/.xinirc</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GTK_IM_MODULE=fcitx</span><br><span class="line">export QT_IM_MODULE=fcitx</span><br><span class="line">export XMODIFIERS=&quot;@im=fcitx&quot;</span><br></pre></td></tr></table></figure><p>简单文本编辑器</p><p>apt install mousepad</p><h2 id="解决输入无效问题"><a href="#解决输入无效问题" class="headerlink" title="解决输入无效问题"></a>解决输入无效问题</h2><p><a href="https://blog.csdn.net/Oscer2016/article/details/65677920">https://blog.csdn.net/Oscer2016/article/details/65677920</a></p><h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><ol><li>终端无法打开</li></ol><p>错误: # Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached  </p><ol><li><p>尝试重新安装gnome-terminal<br><code>apt install --reinstall gnome-terminal</code><br>接下来，运行以下命令以详细模式运行gnome-terminal，以查看是否有输出：<br><code>gnome-terminal --verbose</code></p></li><li><p>尝试安装xfce4-terminal<br><code>apt install xfce4-terminal</code><br>xfce-terminal设置为在CTRL+ALT+T上启动的缺省终端<br><code>update-alternatives --config x-terminal-emulator</code><br>选择xfce4-terminal的数字，然后按ENTER设置</p></li></ol><p>See: <a href="https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04">https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04</a></p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;h1 id=&quot;测试正文&quot;&gt;&lt;a href=&quot;#测试正文&quot; class=&quot;headerlink&quot; title=&quot;测试正文&quot;&gt;&lt;/a&gt;测试正文&lt;/h1&gt;&lt;p&gt;。。。。1&lt;/p&gt;
-
+    <summary type="html">&lt;h1 id=&quot;REF&quot;&gt;&lt;a href=&quot;#REF&quot; class=&quot;headerlink&quot; title=&quot;REF&quot;&gt;&lt;/a&gt;REF&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.linuxprobe.com/ubuntu-vnc-xfce4.html&quot;&gt;https:/</summary>
       
     
-    </summary>
     
     
-      <category term="test" scheme="https://nhzex.github.io/categories/test/"/>
     
+    <category term="ubuntu" scheme="https://nhzex.github.io/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ubuntu-x11</title>
+    <link href="https://nhzex.github.io/ubuntu-x11"/>
+    <id>https://nhzex.github.io/ubuntu-x11</id>
+    <published>2020-01-01T07:19:12.000Z</published>
+    <updated>2020-02-23T02:21:44.867Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install libgl1-mesa-glx libx11-xcb1 libasound2 libglib2.0-0</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
+      
+    
+    
+    
+    
+    <category term="ubuntu" scheme="https://nhzex.github.io/tags/ubuntu/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>wsl 使用记录</title>
+    <link href="https://nhzex.github.io/wsl"/>
+    <id>https://nhzex.github.io/wsl</id>
+    <published>2019-12-08T02:11:23.000Z</published>
+    <updated>2019-12-08T02:20:47.691Z</updated>
+    
+    
+    
+    
+    <category term="wsl" scheme="https://nhzex.github.io/categories/wsl/"/>
+    
+    
+    <category term="wsl" scheme="https://nhzex.github.io/tags/wsl/"/>
+    
+    <category term="windows" scheme="https://nhzex.github.io/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>openssl 使用笔记</title>
+    <link href="https://nhzex.github.io/openssl-use"/>
+    <id>https://nhzex.github.io/openssl-use</id>
+    <published>2019-10-06T17:05:41.000Z</published>
+    <updated>2019-10-06T17:13:22.036Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="证书格式转换"><a href="#证书格式转换" class="headerlink" title="证书格式转换"></a>证书格式转换</h2><h4 id="pem-转-crt"><a href="#pem-转-crt" class="headerlink" title="pem 转 crt"></a>pem 转 crt</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ openssl x509 -outform der -in pve_ca.pem -out pve_cert.crt</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;证书格式转换&quot;&gt;&lt;a href=&quot;#证书格式转换&quot; class=&quot;headerlink&quot; title=&quot;证书格式转换&quot;&gt;&lt;/a&gt;证书格式转换&lt;/h2&gt;&lt;h4 id=&quot;pem-转-crt&quot;&gt;&lt;a href=&quot;#pem-转-crt&quot; class=&quot;headerlink</summary>
+      
+    
+    
+    
+    <category term="openssl" scheme="https://nhzex.github.io/categories/openssl/"/>
+    
+    
+    <category term="openssl" scheme="https://nhzex.github.io/tags/openssl/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git 与 SSH 相遇时的若干问题</title>
+    <link href="https://nhzex.github.io/git-with-ssh-errors"/>
+    <id>https://nhzex.github.io/git-with-ssh-errors</id>
+    <published>2019-10-06T15:58:53.000Z</published>
+    <updated>2019-10-07T08:21:14.080Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h3><p>Host key verification failed.<br>fatal: Could not read from remote repository.  </p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keyscan -t rsa github.com &gt;&gt; ~/.ssh/known_hosts</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository">https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository</a></li></ul><hr><h3 id="错误-1"><a href="#错误-1" class="headerlink" title="错误"></a>错误</h3><p>Permissions 0644 for ‘/root/.ssh/id_rsa’ are too open.<br>It is required that your private key files are NOT accessible by others.<br>This private key will be ignored.<br>Load key “/root/.ssh/id_rsa”: bad permissions<br>Permission denied (publickey).<br>fatal: Could not read from remote repository.  </p><h3 id="解决-1"><a href="#解决-1" class="headerlink" title="解决"></a>解决</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chmod -R 0600 ~/.ssh</span><br></pre></td></tr></table></figure><h3 id="参考-1"><a href="#参考-1" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="http://www.filepermissions.com/">http://www.filepermissions.com/</a></li></ul><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;错误&quot;&gt;&lt;a href=&quot;#错误&quot; class=&quot;headerlink&quot; title=&quot;错误&quot;&gt;&lt;/a&gt;错误&lt;/h3&gt;&lt;p&gt;Host key verification failed.&lt;br&gt;fatal: Could not read from remote rep</summary>
+      
+    
+    
+    
+    <category term="git" scheme="https://nhzex.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://nhzex.github.io/tags/git/"/>
+    
+    <category term="ssh" scheme="https://nhzex.github.io/tags/ssh/"/>
+    
+    <category term="error" scheme="https://nhzex.github.io/tags/error/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 建站记录</title>
+    <link href="https://nhzex.github.io/hexo-site-guide"/>
+    <id>https://nhzex.github.io/hexo-site-guide</id>
+    <published>2019-10-06T07:27:46.000Z</published>
+    <updated>2019-10-06T16:57:31.407Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="资源-主题"><a href="#资源-主题" class="headerlink" title="资源-主题"></a>资源-主题</h2><ul><li><a href="https://github.com/theme-next/hexo-theme-next">Next</a><br>  (一款风格优雅的高质量 Hexo 主题)</li><li><a href="https://github.com/blinkfox/hexo-theme-matery">Matery</a><br>  (一个基于材料设计和响应式设计而成的全面、美观的Hexo主题)</li><li><a href="https://github.com/xaoxuu/hexo-theme-material-x">material-x</a><br>  (一个简约的卡片式Hexo博客主题)</li><li><a href="https://github.com/Molunerfinn/hexo-theme-melody">melody</a><br>  (A simple &amp; beautiful &amp; fast theme for Hexo.)</li><li><a href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a><br>  (一个基于三段式设计的极简布局主题)</li></ul><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li>LEVEL 1<ul><li><a href="https://hexo.io/zh-cn/docs/">Hexo Docs</a> (zh, official)</li><li><a href="https://theme-next.org/docs">Next Documentation</a> (en, official)</li><li><a href="https://theme-next.iissnan.com/">Next Documentation</a> (zh, old)</li><li><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/index.html">Hexo指南</a></li></ul></li><li>LEVEL 2<ul><li><a href="https://11.tt/posts/2018/set-up-hexo-with-coding-and-github/">基于Hexo+Coding+Github搭建个人博客的全过程</a></li><li><a href="https://xuanwo.io/2015/03/26/hexo-intor">史上最详细的Hexo博客搭建图文教程</a></li><li><a href="https://godweiyang.com/2018/04/13/hexo-blog/#toc-heading-14">超详细Hexo+Github博客搭建小白教程</a> (<a href="https://zhuanlan.zhihu.com/p/35668237">备用地址</a>)</li><li><a href="https://www.maoqitian.com/2019/03/12/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-hexo-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/">从零开始 hexo 个人博客搭建完全指南</a></li><li><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a></li></ul></li><li>LEVEL 3<ul><li><a href="https://blog.junyu.io/posts/0004-hexo-config-settings.html">Hexo博客配置文件说明</a></li><li><a href="https://www.donlex.cn/archives/caeb67e2.html">Hexo中NexT主题添加置顶功能</a></li></ul></li></ul><h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2><ul><li><a href="https://busuanzi.ibruce.info/">不蒜子 - 访问统计</a></li><li><a href="https://uptimerobot.com/">uptimerobot - 状态监控</a></li></ul><h2 id="替代品"><a href="#替代品" class="headerlink" title="替代品"></a>替代品</h2><ul><li><a href="https://www.gohugo.org/">Hugo</a></li><li><a href="https://www.vuepress.cn/">VuePress</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;资源-主题&quot;&gt;&lt;a href=&quot;#资源-主题&quot; class=&quot;headerlink&quot; title=&quot;资源-主题&quot;&gt;&lt;/a&gt;资源-主题&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/theme-next/hexo-theme-ne</summary>
+      
+    
+    
+    
+    <category term="hexo" scheme="https://nhzex.github.io/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://nhzex.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="https://nhzex.github.io/2019/10/05/hello-world/"/>
-    <id>https://nhzex.github.io/2019/10/05/hello-world/</id>
+    <link href="https://nhzex.github.io/hello-world"/>
+    <id>https://nhzex.github.io/hello-world</id>
     <published>2019-10-04T16:00:00.000Z</published>
-    <updated>2019-10-05T19:12:34.011Z</updated>
+    <updated>2019-10-06T16:55:08.680Z</updated>
     
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html">Deployment</a></p>]]></content>
     
-    <summary type="html">
     
       
       
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
       
     
-    </summary>
     
     
-      <category term="test" scheme="https://nhzex.github.io/categories/test/"/>
+    <category term="test" scheme="https://nhzex.github.io/categories/test/"/>
     
     
-      <category term="HelloWorld" scheme="https://nhzex.github.io/tags/HelloWorld/"/>
+    <category term="HelloWorld" scheme="https://nhzex.github.io/tags/helloworld/"/>
     
   </entry>
   
