@@ -21,28 +21,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nhzex.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="打包32位无符号整数优点数据定长、占用空间恒定12345678910111213$id1 &#x3D; 102;$id2 &#x3D; 324;$id3 &#x3D; 3051;$id_pack &#x3D; pack(&amp;#x27;lll&amp;#x27;, $id1, $id2, $id3); var_dump($id_pack);var_dump(base64_encode($id_pack));  &#x2F;&#x2F;输出：ZgAAAEQBAADrC">
+<meta name="description" content="州名全称 简称 中译名 州府 中译名    Alabama AL 亚拉巴马 Montgomery 蒙哥马利   Alaska AK AK Juneau 朱诺   Arizona AZ 亚利桑那 Phoenix 菲尼克斯   Arkansas AR 阿肯色 Little Rock 小石城   California CA 加利福尼亚 Sacramento 萨克拉门托   Colorado CO">
 <meta property="og:type" content="article">
-<meta property="og:title" content="php pack 与 unpack 使用笔记">
-<meta property="og:url" content="https://nhzex.github.io/php_pack/index.html">
+<meta property="og:title" content="美国州名全称、简称及州府名称中英对照一览表">
+<meta property="og:url" content="https://nhzex.github.io/usa-zipcode/index.html">
 <meta property="og:site_name" content="zxin Blog">
-<meta property="og:description" content="打包32位无符号整数优点数据定长、占用空间恒定12345678910111213$id1 &#x3D; 102;$id2 &#x3D; 324;$id3 &#x3D; 3051;$id_pack &#x3D; pack(&amp;#x27;lll&amp;#x27;, $id1, $id2, $id3); var_dump($id_pack);var_dump(base64_encode($id_pack));  &#x2F;&#x2F;输出：ZgAAAEQBAADrC">
+<meta property="og:description" content="州名全称 简称 中译名 州府 中译名    Alabama AL 亚拉巴马 Montgomery 蒙哥马利   Alaska AK AK Juneau 朱诺   Arizona AZ 亚利桑那 Phoenix 菲尼克斯   Arkansas AR 阿肯色 Little Rock 小石城   California CA 加利福尼亚 Sacramento 萨克拉门托   Colorado CO">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-10-11T04:55:56.000Z">
+<meta property="article:published_time" content="2021-10-11T16:32:11.000Z">
 <meta property="article:modified_time" content="2021-10-11T16:48:31.757Z">
 <meta property="article:author" content="zxin">
-<meta property="article:tag" content="php">
+<meta property="article:tag" content="收集">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://nhzex.github.io/php_pack/">
+<link rel="canonical" href="https://nhzex.github.io/usa-zipcode/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nhzex.github.io/php_pack/","path":"/php_pack/","title":"php pack 与 unpack 使用笔记"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nhzex.github.io/usa-zipcode/","path":"/usa-zipcode/","title":"美国州名全称、简称及州府名称中英对照一览表"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>php pack 与 unpack 使用笔记 | zxin Blog</title>
+<title>美国州名全称、简称及州府名称中英对照一览表 | zxin Blog</title>
   
 
 
@@ -136,7 +136,7 @@
 
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+    <div class="sidebar-inner sidebar-overview-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -149,7 +149,6 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%93%E5%8C%8532%E4%BD%8D%E6%97%A0%E7%AC%A6%E5%8F%B7%E6%95%B4%E6%95%B0"><span class="nav-number">1.</span> <span class="nav-text">打包32位无符号整数</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%89%93%E5%8C%8564%E4%BD%8D%E6%97%A0%E7%AC%A6%E5%8F%B7%E6%B5%AE%E7%82%B9%E4%B8%8E%E6%95%B4%E6%95%B0"><span class="nav-number">2.</span> <span class="nav-text">打包64位无符号浮点与整数</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#PHP-pack-Manual"><span class="nav-number"></span> <span class="nav-text">PHP: pack - Manual </span></a></div>
         </div>
         <!--/noindex-->
 
@@ -215,7 +214,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/php_pack/">
+    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/usa-zipcode/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -228,7 +227,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          php pack 与 unpack 使用笔记
+          美国州名全称、简称及州府名称中英对照一览表
         </h1>
 
         <div class="post-meta-container">
@@ -238,16 +237,10 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2021-10-11 12:55:56" itemprop="dateCreated datePublished" datetime="2021-10-11T12:55:56+08:00">2021-10-11</time>
+      <time title="创建时间：2021-10-12 00:32:11 / 修改时间：00:48:31" itemprop="dateCreated datePublished" datetime="2021-10-12T00:32:11+08:00">2021-10-12</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-10-12 00:48:31" itemprop="dateModified" datetime="2021-10-12T00:48:31+08:00">2021-10-12</time>
-      </span>
 
   
     <span class="post-meta-break"></span>
@@ -256,14 +249,14 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>2.2k</span>
+      <span>1.4k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
         <i class="far fa-clock"></i>
       </span>
       <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>2 分钟</span>
+      <span>1 分钟</span>
     </span>
 </div>
 
@@ -274,172 +267,375 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <ul>
-<li><h4 id="打包32位无符号整数"><a href="#打包32位无符号整数" class="headerlink" title="打包32位无符号整数"></a>打包32位无符号整数</h4>优点数据定长、占用空间恒定<figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable">$id1</span> = <span class="number">102</span>;</span><br><span class="line"><span class="variable">$id2</span> = <span class="number">324</span>;</span><br><span class="line"><span class="variable">$id3</span> = <span class="number">3051</span>;</span><br><span class="line"><span class="variable">$id_pack</span> = pack(<span class="string">&#x27;lll&#x27;</span>, <span class="variable">$id1</span>, <span class="variable">$id2</span>, <span class="variable">$id3</span>); </span><br><span class="line">var_dump(<span class="variable">$id_pack</span>);</span><br><span class="line">var_dump(base64_encode(<span class="variable">$id_pack</span>));  <span class="comment">//输出：ZgAAAEQBAADrCwAA （定长字符串）</span></span><br><span class="line">var_dump(unpack(<span class="string">&#x27;lid1/lid2/lid3&#x27;</span>,  <span class="variable">$id_pack</span>)); <span class="comment">//解包为数组</span></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">array (size=3)</span></span><br><span class="line"><span class="comment">  &#x27;id1&#x27; =&gt; int 102</span></span><br><span class="line"><span class="comment">  &#x27;id2&#x27; =&gt; int 324</span></span><br><span class="line"><span class="comment">  &#x27;id3&#x27; =&gt; int 3051</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure></li>
-<li><h4 id="打包64位无符号浮点与整数"><a href="#打包64位无符号浮点与整数" class="headerlink" title="打包64位无符号浮点与整数"></a>打包64位无符号浮点与整数</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$idl4 = 0xFFFFFFFFFFFFFFFF;</span><br><span class="line">$idl5 = 18446744073709551615;</span><br><span class="line">$sn64 = pack(&#x27;dJ&#x27;, $idl4, $idl5);</span><br><span class="line">var_dump($sn64);</span><br><span class="line">var_dump(base64_encode($sn64));</span><br><span class="line">var_dump(unpack(&#x27;did4/Jid5&#x27;, $sn64));</span><br></pre></td></tr></table></figure></li>
-</ul>
-<h2 id="PHP-pack-Manual"><a href="#PHP-pack-Manual" class="headerlink" title="PHP: pack - Manual "></a><a target="_blank" rel="noopener" href="http://php.net/manual/zh/function.pack.php">PHP: pack - Manual </a></h2><table>
+        <table>
 <thead>
 <tr>
-<th>Code</th>
-<th>Description</th>
-<th>中文</th>
+<th align="center">州名全称</th>
+<th align="center">简称</th>
+<th align="center">中译名</th>
+<th align="center">州府</th>
+<th align="center">中译名</th>
 </tr>
 </thead>
 <tbody><tr>
-<td>a</td>
-<td>NUL-padded string</td>
-<td>-</td>
+<td align="center">Alabama</td>
+<td align="center">AL</td>
+<td align="center">亚拉巴马</td>
+<td align="center">Montgomery</td>
+<td align="center">蒙哥马利</td>
 </tr>
 <tr>
-<td>A</td>
-<td>SPACE-padded string</td>
-<td>-</td>
+<td align="center">Alaska</td>
+<td align="center">AK</td>
+<td align="center">AK</td>
+<td align="center">Juneau</td>
+<td align="center">朱诺</td>
 </tr>
 <tr>
-<td>h</td>
-<td>Hex string, low nibble first</td>
-<td>-</td>
+<td align="center">Arizona</td>
+<td align="center">AZ</td>
+<td align="center">亚利桑那</td>
+<td align="center">Phoenix</td>
+<td align="center">菲尼克斯</td>
 </tr>
 <tr>
-<td>H</td>
-<td>Hex string, high nibble first</td>
-<td>-</td>
+<td align="center">Arkansas</td>
+<td align="center">AR</td>
+<td align="center">阿肯色</td>
+<td align="center">Little Rock</td>
+<td align="center">小石城</td>
 </tr>
 <tr>
-<td>c</td>
-<td>signed char</td>
-<td>-</td>
+<td align="center">California</td>
+<td align="center">CA</td>
+<td align="center">加利福尼亚</td>
+<td align="center">Sacramento</td>
+<td align="center">萨克拉门托</td>
 </tr>
 <tr>
-<td>C</td>
-<td>unsigned char</td>
-<td>-</td>
+<td align="center">Colorado</td>
+<td align="center">CO</td>
+<td align="center">科罗拉多</td>
+<td align="center">Denver</td>
+<td align="center">丹佛</td>
 </tr>
 <tr>
-<td>s</td>
-<td>signed short (always 16 bit, machine byte order)</td>
-<td>-</td>
+<td align="center">Connecticut</td>
+<td align="center">CT</td>
+<td align="center">康涅狄格</td>
+<td align="center">Hartford</td>
+<td align="center">哈特福德</td>
 </tr>
 <tr>
-<td>S</td>
-<td>unsigned short (always 16 bit, machine byte order)</td>
-<td>-</td>
+<td align="center">Delaware</td>
+<td align="center">DE</td>
+<td align="center">特拉华</td>
+<td align="center">Dover</td>
+<td align="center">多佛</td>
 </tr>
 <tr>
-<td>n</td>
-<td>unsigned short (always 16 bit, big endian byte order)</td>
-<td>-</td>
+<td align="center">District of Columbia</td>
+<td align="center">DC</td>
+<td align="center">哥伦比亚特区</td>
+<td align="center"></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td>v</td>
-<td>unsigned short (always 16 bit, little endian byte order)</td>
-<td>-</td>
+<td align="center">Florida</td>
+<td align="center">FL</td>
+<td align="center">佛罗里达</td>
+<td align="center">Tallahassee</td>
+<td align="center">塔拉哈西</td>
 </tr>
 <tr>
-<td>i</td>
-<td>signed integer (machine dependent size and byte order)</td>
-<td>-</td>
+<td align="center">Georgia</td>
+<td align="center">GA</td>
+<td align="center">佐治亚</td>
+<td align="center">Atlanta</td>
+<td align="center">亚特兰大</td>
 </tr>
 <tr>
-<td>I</td>
-<td>unsigned integer (machine dependent size and byte order)</td>
-<td>-</td>
+<td align="center">Hawaii</td>
+<td align="center">HI</td>
+<td align="center">夏威夷</td>
+<td align="center">Honolulu</td>
+<td align="center">火奴鲁鲁</td>
 </tr>
 <tr>
-<td>l</td>
-<td>signed long (always 32 bit, machine byte order)</td>
-<td>-</td>
+<td align="center">Idaho</td>
+<td align="center">ID</td>
+<td align="center">爱达荷</td>
+<td align="center">Boise</td>
+<td align="center">博伊西</td>
 </tr>
 <tr>
-<td>L</td>
-<td>unsigned long (always 32 bit, machine byte order)</td>
-<td>-</td>
+<td align="center">Illinois</td>
+<td align="center">IL</td>
+<td align="center">伊利诺斯</td>
+<td align="center">Springfield</td>
+<td align="center">斯普林菲尔德</td>
 </tr>
 <tr>
-<td>N</td>
-<td>unsigned long (always 32 bit, big endian byte order)</td>
-<td>-</td>
+<td align="center">Indiana</td>
+<td align="center">IN</td>
+<td align="center">印第安纳</td>
+<td align="center">Indianapolis</td>
+<td align="center">印第安纳波利斯</td>
 </tr>
 <tr>
-<td>V</td>
-<td>unsigned long (always 32 bit, little endian byte order)</td>
-<td>-</td>
+<td align="center">Iowa</td>
+<td align="center">IA</td>
+<td align="center">爱荷华</td>
+<td align="center">Des Moines</td>
+<td align="center">得梅因</td>
 </tr>
 <tr>
-<td>q</td>
-<td>signed long long (always 64 bit, machine byte order)</td>
-<td>有符号长长整数 (主机字节序)</td>
+<td align="center">Kansas</td>
+<td align="center">KS</td>
+<td align="center">堪萨斯</td>
+<td align="center">Topeka</td>
+<td align="center">托皮卡</td>
 </tr>
 <tr>
-<td>Q</td>
-<td>unsigned long long (always 64 bit, machine byte order)</td>
-<td>无符号长长整数 (主机字节序)</td>
+<td align="center">Kentucky</td>
+<td align="center">KY</td>
+<td align="center">肯塔基</td>
+<td align="center">Frankfort</td>
+<td align="center">法兰克福</td>
 </tr>
 <tr>
-<td>J</td>
-<td>unsigned long long (always 64 bit, big endian byte order)</td>
-<td>无符号长长整数 (大端字节序)</td>
+<td align="center">Louisiana</td>
+<td align="center">LA</td>
+<td align="center">路易斯安那</td>
+<td align="center">Baton Rouge</td>
+<td align="center">巴吞鲁日</td>
 </tr>
 <tr>
-<td>P</td>
-<td>unsigned long long (always 64 bit, little endian byte order)</td>
-<td>无符号长长整数 (小端字节序)</td>
+<td align="center">Maine</td>
+<td align="center">ME</td>
+<td align="center">缅因</td>
+<td align="center">Augusta</td>
+<td align="center">奥古斯塔</td>
 </tr>
 <tr>
-<td>f</td>
-<td>float (machine dependent size and representation)</td>
-<td>-</td>
+<td align="center">Maryland</td>
+<td align="center">MD</td>
+<td align="center">马里兰</td>
+<td align="center">Annapolis</td>
+<td align="center">安那波利斯</td>
 </tr>
 <tr>
-<td>g</td>
-<td>float (machine dependent size, little endian byte order)</td>
-<td>-</td>
+<td align="center">Massachusetts</td>
+<td align="center">MA</td>
+<td align="center">马萨诸塞</td>
+<td align="center">Boston</td>
+<td align="center">波士顿</td>
 </tr>
 <tr>
-<td>G</td>
-<td>float (machine dependent size, big endian byte order)</td>
-<td>-</td>
+<td align="center">Michigan</td>
+<td align="center">MI</td>
+<td align="center">密歇根</td>
+<td align="center">Lansing</td>
+<td align="center">兰辛</td>
 </tr>
 <tr>
-<td>d</td>
-<td>double (machine dependent size and representation)</td>
-<td>-</td>
+<td align="center">Minnesota</td>
+<td align="center">MN</td>
+<td align="center">明尼苏达</td>
+<td align="center">St. Paul</td>
+<td align="center">圣保罗</td>
 </tr>
 <tr>
-<td>e</td>
-<td>double (machine dependent size, little endian byte order)</td>
-<td>-</td>
+<td align="center">Mississippi</td>
+<td align="center">MS</td>
+<td align="center">密西西比</td>
+<td align="center">Jackson</td>
+<td align="center">杰克逊</td>
 </tr>
 <tr>
-<td>E</td>
-<td>double (machine dependent size, big endian byte order)</td>
-<td>-</td>
+<td align="center">Missouri</td>
+<td align="center">MO</td>
+<td align="center">密苏里</td>
+<td align="center">Jefferson City</td>
+<td align="center">杰斐逊城</td>
 </tr>
 <tr>
-<td>x</td>
-<td>NUL byte</td>
-<td>-</td>
+<td align="center">Montana</td>
+<td align="center">MT</td>
+<td align="center">蒙大拿</td>
+<td align="center">Helena</td>
+<td align="center">海伦娜</td>
 </tr>
 <tr>
-<td>X</td>
-<td>Back up one byte</td>
-<td>-</td>
+<td align="center">Nebraska</td>
+<td align="center">NE</td>
+<td align="center">内布拉斯加</td>
+<td align="center">Lincoln</td>
+<td align="center">林肯</td>
 </tr>
 <tr>
-<td>Z</td>
-<td>NUL-padded string (new in PHP 5.5)</td>
-<td>-</td>
+<td align="center">Nevada</td>
+<td align="center">NV</td>
+<td align="center">内华达</td>
+<td align="center">Carson City</td>
+<td align="center">卡森城</td>
 </tr>
 <tr>
-<td>@</td>
-<td>NUL-fill to absolute position</td>
-<td>-</td>
+<td align="center">New Hampshire</td>
+<td align="center">NH</td>
+<td align="center">新罕布什尔</td>
+<td align="center">Concord</td>
+<td align="center">康科德</td>
+</tr>
+<tr>
+<td align="center">New Jeresy</td>
+<td align="center">NJ</td>
+<td align="center">新泽西</td>
+<td align="center">Trenton</td>
+<td align="center">特伦顿</td>
+</tr>
+<tr>
+<td align="center">New Mexico</td>
+<td align="center">NM</td>
+<td align="center">新墨西哥</td>
+<td align="center">Santa Fe</td>
+<td align="center">圣菲</td>
+</tr>
+<tr>
+<td align="center">New York</td>
+<td align="center">NY</td>
+<td align="center">纽约</td>
+<td align="center">Albany</td>
+<td align="center">奥尔巴尼</td>
+</tr>
+<tr>
+<td align="center">North Carolina</td>
+<td align="center">NC</td>
+<td align="center">北卡罗来纳</td>
+<td align="center">Raleigh</td>
+<td align="center">罗利</td>
+</tr>
+<tr>
+<td align="center">North Dakota</td>
+<td align="center">ND</td>
+<td align="center">北达科他</td>
+<td align="center">Bismarck</td>
+<td align="center">俾斯麦</td>
+</tr>
+<tr>
+<td align="center">Ohio</td>
+<td align="center">OH</td>
+<td align="center">俄亥俄</td>
+<td align="center">Columbus</td>
+<td align="center">哥伦布</td>
+</tr>
+<tr>
+<td align="center">Oklahoma</td>
+<td align="center">OK</td>
+<td align="center">俄克拉荷马</td>
+<td align="center">Oklahoma City</td>
+<td align="center">俄克拉荷马城</td>
+</tr>
+<tr>
+<td align="center">Oregon</td>
+<td align="center">OR</td>
+<td align="center">俄勒冈</td>
+<td align="center">Salem</td>
+<td align="center">塞勒姆</td>
+</tr>
+<tr>
+<td align="center">Pennsylvania</td>
+<td align="center">PA</td>
+<td align="center">宾夕法尼亚</td>
+<td align="center">Harrisburg</td>
+<td align="center">哈里斯堡</td>
+</tr>
+<tr>
+<td align="center">Rhode Island</td>
+<td align="center">RI</td>
+<td align="center">罗得岛</td>
+<td align="center">Providence</td>
+<td align="center">普罗维登斯</td>
+</tr>
+<tr>
+<td align="center">SouthCarolina</td>
+<td align="center">SC</td>
+<td align="center">南卡罗来纳</td>
+<td align="center">Columbia</td>
+<td align="center">哥伦比亚</td>
+</tr>
+<tr>
+<td align="center">South Dakota</td>
+<td align="center">SD</td>
+<td align="center">南达科他</td>
+<td align="center">Pierre</td>
+<td align="center">皮尔</td>
+</tr>
+<tr>
+<td align="center">Tennessee</td>
+<td align="center">TN</td>
+<td align="center">田纳西</td>
+<td align="center">Nashville</td>
+<td align="center">纳什维尔</td>
+</tr>
+<tr>
+<td align="center">Texas</td>
+<td align="center">TX</td>
+<td align="center">得克萨斯</td>
+<td align="center">Austin</td>
+<td align="center">奥斯汀</td>
+</tr>
+<tr>
+<td align="center">Utah</td>
+<td align="center">UT</td>
+<td align="center">犹他</td>
+<td align="center">Salt Lake City</td>
+<td align="center">盐湖城</td>
+</tr>
+<tr>
+<td align="center">Vermont</td>
+<td align="center">VT</td>
+<td align="center">佛蒙特</td>
+<td align="center">Montpelier</td>
+<td align="center">蒙比利埃</td>
+</tr>
+<tr>
+<td align="center">Virginia</td>
+<td align="center">VA</td>
+<td align="center">弗吉尼亚</td>
+<td align="center">Richmond</td>
+<td align="center">里士满</td>
+</tr>
+<tr>
+<td align="center">Washington</td>
+<td align="center">WA</td>
+<td align="center">华盛顿</td>
+<td align="center">Olympia</td>
+<td align="center">奥林匹亚</td>
+</tr>
+<tr>
+<td align="center">West Virginia</td>
+<td align="center">WV</td>
+<td align="center">西弗吉尼亚</td>
+<td align="center">Charleston</td>
+<td align="center">查尔斯顿</td>
+</tr>
+<tr>
+<td align="center">Wisconsin</td>
+<td align="center">WI</td>
+<td align="center">威斯康星</td>
+<td align="center">Madison</td>
+<td align="center">麦迪逊</td>
+</tr>
+<tr>
+<td align="center">Wyoming</td>
+<td align="center">WY</td>
+<td align="center">怀俄明</td>
+<td align="center">Cheyenne</td>
+<td align="center">夏延</td>
 </tr>
 </tbody></table>
-<blockquote>
-<p><a target="_blank" rel="noopener" href="https://my.oschina.net/goal/blog/195749">PHP: 深入pack/unpack - 陈亦</a><br>a – 将字符串空白以 NULL 字符填满<br>A – 将字符串空白以 SPACE 字符 (空格) 填满<br>h – 16进制字符串，低位在前以半字节为单位<br>H – 16进制字符串，高位在前以半字节为单位<br>c – 有符号字符<br>C – 无符号字符<br>s – 有符号短整数 (16位，主机字节序)<br>S – 无符号短整数 (16位，主机字节序)<br>n – 无符号短整数 (16位, 大端字节序)<br>v – 无符号短整数 (16位, 小端字节序)<br>i – 有符号整数 (依赖机器大小及字节序)<br>I – 无符号整数 (依赖机器大小及字节序)<br>l – 有符号长整数 (32位，主机字节序)<br>L – 无符号长整数 (32位，主机字节序)<br>N – 无符号长整数 (32位, 大端字节序)<br>V – 无符号长整数 (32位, 小端字节序)<br>f – 单精度浮点数 (依计算机的范围)<br>d – 双精度浮点数 (依计算机的范围)<br>x – 空字节<br>X – 倒回一位<br>@ – 填入 NULL 字符到绝对位置  </p>
-</blockquote>
+<p>参考：<a target="_blank" rel="noopener" href="http://www.library.sh.cn/tsgc/lxzn/%E7%95%99%E5%AD%A6%E6%8C%87%E5%8D%97(%E7%BE%8E).files/zhou.table.htm">http://www.library.sh.cn/tsgc/lxzn/%E7%95%99%E5%AD%A6%E6%8C%87%E5%8D%97(%E7%BE%8E).files/zhou.table.htm</a>  </p>
 
     </div>
 
@@ -457,7 +653,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://nhzex.github.io/php_pack/" title="php pack 与 unpack 使用笔记">https://nhzex.github.io/php_pack/</a>
+      <a href="https://nhzex.github.io/usa-zipcode/" title="美国州名全称、简称及州府名称中英对照一览表">https://nhzex.github.io/usa-zipcode/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -466,20 +662,20 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/php/" rel="tag"># php</a>
+              <a href="/tags/%E6%94%B6%E9%9B%86/" rel="tag"># 收集</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/02/23/apt-proxy.html" rel="prev" title="apt走代理">
-                  <i class="fa fa-chevron-left"></i> apt走代理
+                <a href="/linux-qrcode-and-barcode/" rel="prev" title="Linux CLI 工具索引">
+                  <i class="fa fa-chevron-left"></i> Linux CLI 工具索引
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/mysql-compress/" rel="next" title="mysql 原生 compress 与 php gzcompress 的联合使用">
-                  mysql 原生 compress 与 php gzcompress 的联合使用 <i class="fa fa-chevron-right"></i>
+                <a href="/ocr/" rel="next" title="Ocr 资料">
+                  Ocr 资料 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
