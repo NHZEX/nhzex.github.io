@@ -4,6 +4,44 @@
   
     
     <entry>
+      <title>PHP IDE 提示增强</title>
+      <link href="//php-ide-helper/"/>
+      <url>//php-ide-helper/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><ul><li><a href="https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html">https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html</a></li><li><a href="https://github.com/barryvdh/laravel-ide-helper">https://github.com/barryvdh/laravel-ide-helper</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PHP 泛型</title>
+      <link href="//php-generics/"/>
+      <url>//php-generics/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><ul><li><a href="https://blog.jetbrains.com/phpstorm/2021/07/phpstorm-2021-2-release/#generics">https://blog.jetbrains.com/phpstorm/2021/07/phpstorm-2021-2-release/#generics</a></li><li><a href="https://github.com/phpstan/phpstan/issues/2922">https://github.com/phpstan/phpstan/issues/2922</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Ocr 资料</title>
       <link href="//ocr/"/>
       <url>//ocr/</url>

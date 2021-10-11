@@ -2,7 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nhzex.github.io/2020/01/01/ubuntu-x11.html</loc>
+    <loc>https://nhzex.github.io/2019/10/04/hello-world.html</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2019/10/06/git-with-ssh-errors.html</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2019/10/06/hexo-site-guide.html</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2019/10/06/openssl-use.html</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2019/12/08/wsl.html</loc>
     
     <lastmod>2021-10-11</lastmod>
     
@@ -10,6 +38,13 @@
   
   <url>
     <loc>https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2020/01/01/ubuntu-x11.html</loc>
     
     <lastmod>2021-10-11</lastmod>
     
@@ -72,14 +107,21 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/usa-zipcode/</loc>
+    <loc>https://nhzex.github.io/php-generics/</loc>
     
     <lastmod>2021-10-11</lastmod>
     
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/categories/index.html</loc>
+    <loc>https://nhzex.github.io/php-ide-helper/</loc>
+    
+    <lastmod>2021-10-11</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/usa-zipcode/</loc>
     
     <lastmod>2021-10-11</lastmod>
     
@@ -93,35 +135,7 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/2019/10/04/hello-world.html</loc>
-    
-    <lastmod>2021-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nhzex.github.io/2019/10/06/hexo-site-guide.html</loc>
-    
-    <lastmod>2021-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nhzex.github.io/2019/10/06/git-with-ssh-errors.html</loc>
-    
-    <lastmod>2021-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nhzex.github.io/2019/10/06/openssl-use.html</loc>
-    
-    <lastmod>2021-10-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nhzex.github.io/2019/12/08/wsl.html</loc>
+    <loc>https://nhzex.github.io/categories/index.html</loc>
     
     <lastmod>2021-10-11</lastmod>
     
@@ -144,13 +158,6 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/tags/hexo/</loc>
-    <lastmod>2021-10-11</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://nhzex.github.io/tags/git/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
@@ -166,6 +173,13 @@
   
   <url>
     <loc>https://nhzex.github.io/tags/error/</loc>
+    <lastmod>2021-10-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/tags/hexo/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -286,14 +300,14 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/categories/hexo/</loc>
+    <loc>https://nhzex.github.io/categories/git/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/categories/git/</loc>
+    <loc>https://nhzex.github.io/categories/hexo/</loc>
     <lastmod>2021-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
