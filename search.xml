@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title>Linux CLI 工具索引</title>
+      <link href="//linux-qrcode-and-barcode/"/>
+      <url>//linux-qrcode-and-barcode/</url>
+      
+        <content type="html"><![CDATA[<h2 id="ZBar"><a href="#ZBar" class="headerlink" title="ZBar"></a><a href="http://zbar.sourceforge.net/">ZBar</a></h2><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>二维码与条形码识别工具</p><h3 id="执行文件"><a href="#执行文件" class="headerlink" title="执行文件"></a>执行文件</h3><ul><li>zbarimg</li><li>zbarcam</li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> tool </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux pdf cli tool</title>
+      <link href="//linux-pdf/"/>
+      <url>//linux-pdf/</url>
+      
+        <content type="html"><![CDATA[<h2 id="QPDF"><a href="#QPDF" class="headerlink" title="QPDF"></a>QPDF</h2><p>提供一系列<code>pdf</code>的操作方法  </p><ol><li>按页切合<code>pdf</code></li></ol><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install qpdf</span><br></pre></td></tr></table></figure><h2 id="poppler-utils"><a href="#poppler-utils" class="headerlink" title="poppler-utils"></a>poppler-utils</h2><p>提供一系列<code>pdf</code>的操作工具</p><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install poppler-utils</span><br></pre></td></tr></table></figure><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li>获取详细信息：<code>pdfinfo</code></li><li>转换为图片：<code>pdftoppm</code></li><li>转换为HTML：<code>pdftohtml</code></li><li>提取文字资源：<code>pdftotext</code></li><li>提取图片资源：<code>pdfimages</code></li></ul><h3 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h3><ul><li><a href="https://github.com/Lukasss93/pdf-to-ppm">https://github.com/Lukasss93/pdf-to-ppm</a></li></ul><h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ul><li><a href="https://www.mankier.com/1/pdftoppm">https://www.mankier.com/1/pdftoppm</a></li><li><a href="https://askubuntu.com/a/50180">https://askubuntu.com/a/50180</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> pdf </tag>
+            
+            <tag> tool </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>php 内置异常记录</title>
       <link href="//php-exception/"/>
       <url>//php-exception/</url>
