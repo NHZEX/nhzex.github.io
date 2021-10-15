@@ -21,28 +21,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nhzex.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta name="description" content="REFhttps:&#x2F;&#x2F;www.linuxprobe.com&#x2F;ubuntu-vnc-xfce4.htmlhttps:&#x2F;&#x2F;www.tightvnc.com&#x2F;http:&#x2F;&#x2F;blog.shell909090.org&#x2F;blog&#x2F;archives&#x2F;1925&#x2F; runvnc.sh 123#!&#x2F;bin&#x2F;shvncserver -kill :1vncserver :1 -geometry 1440x900 -geo">
+<meta name="description" content="浏览器给出的错误代码ERR_UNSAFE_PORT   临时解决方案Chrome添加参数可临时解除屏蔽--explicitly-allowed-ports&#x3D;87,6666,556,6667   建议解决方案避免使用以下端口提供http服务： 1234567891011121314151617181920212223242526272829303132333435363738394041424344">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ubuntu-vnc-xfce4">
-<meta property="og:url" content="https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html">
+<meta property="og:title" content="使用非安全端口导致浏览器阻止请求">
+<meta property="og:url" content="https://nhzex.github.io/err-unsafe-port/index.html">
 <meta property="og:site_name" content="zxin Blog">
-<meta property="og:description" content="REFhttps:&#x2F;&#x2F;www.linuxprobe.com&#x2F;ubuntu-vnc-xfce4.htmlhttps:&#x2F;&#x2F;www.tightvnc.com&#x2F;http:&#x2F;&#x2F;blog.shell909090.org&#x2F;blog&#x2F;archives&#x2F;1925&#x2F; runvnc.sh 123#!&#x2F;bin&#x2F;shvncserver -kill :1vncserver :1 -geometry 1440x900 -geo">
+<meta property="og:description" content="浏览器给出的错误代码ERR_UNSAFE_PORT   临时解决方案Chrome添加参数可临时解除屏蔽--explicitly-allowed-ports&#x3D;87,6666,556,6667   建议解决方案避免使用以下端口提供http服务： 1234567891011121314151617181920212223242526272829303132333435363738394041424344">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2020-01-01T08:44:48.000Z">
-<meta property="article:modified_time" content="2021-09-16T04:16:34.000Z">
+<meta property="article:published_time" content="2021-10-15T14:16:28.000Z">
+<meta property="article:modified_time" content="2021-10-15T14:29:08.000Z">
 <meta property="article:author" content="zxin">
-<meta property="article:tag" content="ubuntu">
+<meta property="article:tag" content="network">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html">
+<link rel="canonical" href="https://nhzex.github.io/err-unsafe-port/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html","path":"2020/01/01/ubuntu-vnc-xfce4.html","title":"ubuntu-vnc-xfce4"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nhzex.github.io/err-unsafe-port/","path":"/err-unsafe-port/","title":"使用非安全端口导致浏览器阻止请求"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>ubuntu-vnc-xfce4 | zxin Blog</title>
+<title>使用非安全端口导致浏览器阻止请求 | zxin Blog</title>
   
 
 
@@ -149,7 +149,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#REF"><span class="nav-number">1.</span> <span class="nav-text">REF</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%A7%A3%E5%86%B3%E8%BE%93%E5%85%A5%E6%97%A0%E6%95%88%E9%97%AE%E9%A2%98"><span class="nav-number">1.1.</span> <span class="nav-text">解决输入无效问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%94%99%E8%AF%AF"><span class="nav-number">1.2.</span> <span class="nav-text">错误</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%B8%B4%E6%97%B6%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="nav-number">1.</span> <span class="nav-text">临时解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%BB%BA%E8%AE%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88"><span class="nav-number">2.</span> <span class="nav-text">建议解决方案</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83"><span class="nav-number">3.</span> <span class="nav-text">参考</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -215,7 +215,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html">
+    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/err-unsafe-port/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -228,7 +228,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          ubuntu-vnc-xfce4
+          使用非安全端口导致浏览器阻止请求
         </h1>
 
         <div class="post-meta-container">
@@ -238,16 +238,10 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">发表于</span>
+      
 
-      <time title="创建时间：2020-01-01 16:44:48" itemprop="dateCreated datePublished" datetime="2020-01-01T16:44:48+08:00">2020-01-01</time>
+      <time title="创建时间：2021-10-15 22:16:28 / 修改时间：22:29:08" itemprop="dateCreated datePublished" datetime="2021-10-15T22:16:28+08:00">2021-10-15</time>
     </span>
-      <span class="post-meta-item">
-        <span class="post-meta-item-icon">
-          <i class="far fa-calendar-check"></i>
-        </span>
-        <span class="post-meta-item-text">更新于</span>
-        <time title="修改时间：2021-09-16 12:16:34" itemprop="dateModified" datetime="2021-09-16T12:16:34+08:00">2021-09-16</time>
-      </span>
 
   
     <span class="post-meta-break"></span>
@@ -256,7 +250,7 @@
         <i class="far fa-file-word"></i>
       </span>
       <span class="post-meta-item-text">本文字数：</span>
-      <span>1.5k</span>
+      <span>1.6k</span>
     </span>
     <span class="post-meta-item" title="阅读时长">
       <span class="post-meta-item-icon">
@@ -274,33 +268,16 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="REF"><a href="#REF" class="headerlink" title="REF"></a>REF</h1><p><a target="_blank" rel="noopener" href="https://www.linuxprobe.com/ubuntu-vnc-xfce4.html">https://www.linuxprobe.com/ubuntu-vnc-xfce4.html</a><br><a target="_blank" rel="noopener" href="https://www.tightvnc.com/">https://www.tightvnc.com/</a><br><a target="_blank" rel="noopener" href="http://blog.shell909090.org/blog/archives/1925/">http://blog.shell909090.org/blog/archives/1925/</a></p>
-<p>runvnc.sh</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">vncserver -kill :1</span><br><span class="line">vncserver :1 -geometry 1440x900 -geometry 1920x1080 -geometry 1024x600</span><br></pre></td></tr></table></figure>
+        <p>浏览器给出的错误代码<code>ERR_UNSAFE_PORT</code>  </p>
+<h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案"></a>临时解决方案</h3><p><code>Chrome</code>添加参数可临时解除屏蔽<code>--explicitly-allowed-ports=87,6666,556,6667</code>  </p>
+<h3 id="建议解决方案"><a href="#建议解决方案" class="headerlink" title="建议解决方案"></a>建议解决方案</h3><p>避免使用以下端口提供<code>http</code>服务：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line">1,      // tcpmux</span><br><span class="line">7,      // echo</span><br><span class="line">9,      // discard</span><br><span class="line">11,     // systat</span><br><span class="line">13,     // daytime</span><br><span class="line">15,     // netstat</span><br><span class="line">17,     // qotd</span><br><span class="line">19,     // chargen</span><br><span class="line">20,     // ftp data</span><br><span class="line">21,     // ftp access</span><br><span class="line">22,     // ssh</span><br><span class="line">23,     // telnet</span><br><span class="line">25,     // smtp</span><br><span class="line">37,     // time</span><br><span class="line">42,     // name</span><br><span class="line">43,     // nicname</span><br><span class="line">53,     // domain</span><br><span class="line">69,     // tftp</span><br><span class="line">77,     // priv-rjs</span><br><span class="line">79,     // finger</span><br><span class="line">87,     // ttylink</span><br><span class="line">95,     // supdup</span><br><span class="line">101,    // hostriame</span><br><span class="line">102,    // iso-tsap</span><br><span class="line">103,    // gppitnp</span><br><span class="line">104,    // acr-nema</span><br><span class="line">109,    // pop2</span><br><span class="line">110,    // pop3</span><br><span class="line">111,    // sunrpc</span><br><span class="line">113,    // auth</span><br><span class="line">115,    // sftp</span><br><span class="line">117,    // uucp-path</span><br><span class="line">119,    // nntp</span><br><span class="line">123,    // NTP</span><br><span class="line">135,    // loc-srv /epmap</span><br><span class="line">137,    // netbios</span><br><span class="line">139,    // netbios</span><br><span class="line">143,    // imap2</span><br><span class="line">161,    // snmp</span><br><span class="line">179,    // BGP</span><br><span class="line">389,    // ldap</span><br><span class="line">427,    // SLP (Also used by Apple Filing Protocol)</span><br><span class="line">465,    // smtp+ssl</span><br><span class="line">512,    // print / exec</span><br><span class="line">513,    // login</span><br><span class="line">514,    // shell</span><br><span class="line">515,    // printer</span><br><span class="line">526,    // tempo</span><br><span class="line">530,    // courier</span><br><span class="line">531,    // chat</span><br><span class="line">532,    // netnews</span><br><span class="line">540,    // uucp</span><br><span class="line">548,    // AFP (Apple Filing Protocol)</span><br><span class="line">554,    // rtsp</span><br><span class="line">556,    // remotefs</span><br><span class="line">563,    // nntp+ssl</span><br><span class="line">587,    // smtp (rfc6409)</span><br><span class="line">601,    // syslog-conn (rfc3195)</span><br><span class="line">636,    // ldap+ssl</span><br><span class="line">993,    // ldap+ssl</span><br><span class="line">995,    // pop3+ssl</span><br><span class="line">1719,   // h323gatestat</span><br><span class="line">1720,   // h323hostcall</span><br><span class="line">1723,   // pptp</span><br><span class="line">2049,   // nfs</span><br><span class="line">3659,   // apple-sasl / PasswordServer</span><br><span class="line">4045,   // lockd</span><br><span class="line">5060,   // sip</span><br><span class="line">5061,   // sips</span><br><span class="line">6000,   // X11</span><br><span class="line">6566,   // sane-port</span><br><span class="line">6665,   // Alternate IRC [Apple addition]</span><br><span class="line">6666,   // Alternate IRC [Apple addition]</span><br><span class="line">6667,   // Standard IRC [Apple addition]</span><br><span class="line">6668,   // Alternate IRC [Apple addition]</span><br><span class="line">6669,   // Alternate IRC [Apple addition]</span><br><span class="line">6697,   // IRC + TLS</span><br><span class="line">10080,  // Amanda</span><br></pre></td></tr></table></figure>
 
-<p>切换分辨率<br>xrandr // 查看可用分辨率<br>xrandr -s Number // 切换到指定分辨率</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">  </span><br><span class="line"># Uncomment the following two lines for normal desktop:</span><br><span class="line"># unset SESSION_MANAGER</span><br><span class="line"># exec /etc/X11/xinit/xinitrc</span><br><span class="line"></span><br><span class="line">[ -x /etc/vnc/xstartup ] &amp;&amp; exec /etc/vnc/xstartup</span><br><span class="line">[ -r $HOME/.Xresources ] &amp;&amp; xrdb $HOME/.Xresources</span><br><span class="line"></span><br><span class="line"># xsetroot -solid grey</span><br><span class="line"># vncconfig -iconic &amp;</span><br><span class="line"># x-terminal-emulator -geometry 80x24+10+10 -ls -title &quot;$VNCDESKTOP Desktop&quot; &amp;</span><br><span class="line"># x-window-manager &amp;</span><br><span class="line"></span><br><span class="line"># xfce4</span><br><span class="line">xfce4-panel &amp;</span><br><span class="line">startxfce4 &amp;</span><br><span class="line">fcitx &amp;</span><br><span class="line">vncconfig -nowin -display :1</span><br></pre></td></tr></table></figure>
-
-<p>安装输入法</p>
-<p>sudo apt install fcitx-sunpinyin</p>
-<p>vim /etc/environment </p>
-<p>~/.xinirc</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GTK_IM_MODULE=fcitx</span><br><span class="line">export QT_IM_MODULE=fcitx</span><br><span class="line">export XMODIFIERS=&quot;@im=fcitx&quot;</span><br></pre></td></tr></table></figure>
-
-<p>简单文本编辑器</p>
-<p>apt install mousepad</p>
-<h2 id="解决输入无效问题"><a href="#解决输入无效问题" class="headerlink" title="解决输入无效问题"></a>解决输入无效问题</h2><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/Oscer2016/article/details/65677920">https://blog.csdn.net/Oscer2016/article/details/65677920</a></p>
-<h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><ol>
-<li>终端无法打开</li>
-</ol>
-<p>错误: # Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached  </p>
-<ol>
-<li><p>尝试重新安装gnome-terminal<br><code>apt install --reinstall gnome-terminal</code><br>接下来，运行以下命令以详细模式运行gnome-terminal，以查看是否有输出：<br><code>gnome-terminal --verbose</code></p>
-</li>
-<li><p>尝试安装xfce4-terminal<br><code>apt install xfce4-terminal</code><br>xfce-terminal设置为在CTRL+ALT+T上启动的缺省终端<br><code>update-alternatives --config x-terminal-emulator</code><br>选择xfce4-terminal的数字，然后按ENTER设置</p>
-</li>
-</ol>
-<p>See: <a target="_blank" rel="noopener" href="https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04">https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04</a></p>
+<h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/testcs_dn/article/details/39186225">https://blog.csdn.net/testcs_dn/article/details/39186225</a></li>
+<li><a target="_blank" rel="noopener" href="https://superuser.com/a/188070">https://superuser.com/a/188070</a></li>
+<li><a target="_blank" rel="noopener" href="https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc">https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc</a></li>
+</ul>
 
     </div>
 
@@ -318,7 +295,7 @@
   </li>
   <li class="post-copyright-link">
       <strong>本文链接：</strong>
-      <a href="https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html" title="ubuntu-vnc-xfce4">https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html</a>
+      <a href="https://nhzex.github.io/err-unsafe-port/" title="使用非安全端口导致浏览器阻止请求">https://nhzex.github.io/err-unsafe-port/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
@@ -327,21 +304,18 @@
 </div>
 
           <div class="post-tags">
-              <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+              <a href="/tags/network/" rel="tag"># network</a>
           </div>
 
         
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2020/01/01/ubuntu-x11.html" rel="prev" title="ubuntu-x11">
-                  <i class="fa fa-chevron-left"></i> ubuntu-x11
+                <a href="/php-ide-helper/" rel="prev" title="PHP IDE 提示增强">
+                  <i class="fa fa-chevron-left"></i> PHP IDE 提示增强
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2020/02/14/url-encrypt.html" rel="next" title="资源URL路径加密">
-                  资源URL路径加密 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
