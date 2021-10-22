@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2021-10-15T14:29:08.000Z</updated>
+  <updated>2021-10-22T11:07:35.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>特殊字符</title>
+    <link href="https://nhzex.github.io/string-xc2-xa0/"/>
+    <id>https://nhzex.github.io/string-xc2-xa0/</id>
+    <published>2021-10-22T11:06:27.000Z</published>
+    <updated>2021-10-22T11:07:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;特殊空格：&lt;code&gt;\xc2\xa0&lt;/code&gt; Non-breaking space&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="string" scheme="https://nhzex.github.io/tags/string/"/>
+    
+  </entry>
   
   <entry>
     <title>使用非安全端口导致浏览器阻止请求</title>

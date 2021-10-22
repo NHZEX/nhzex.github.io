@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>特殊字符</title>
+      <link href="//string-xc2-xa0/"/>
+      <url>//string-xc2-xa0/</url>
+      
+        <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> string </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用非安全端口导致浏览器阻止请求</title>
       <link href="//err-unsafe-port/"/>
       <url>//err-unsafe-port/</url>
