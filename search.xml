@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>linux-systemd</title>
+      <link href="//linux-systemd/"/>
+      <url>//linux-systemd/</url>
+      
+        <content type="html"><![CDATA[<h3 id="ISSUE"><a href="#ISSUE" class="headerlink" title="ISSUE"></a>ISSUE</h3><ul><li><p>提示找不到 <code>service unit file</code></p><ul><li>通过执行<code>systemctl daemon-reload</code>重载配置文件</li><li>如果是通过<code>ln</code>建立连接，那必须是建议硬链接，不支持软连接。</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+            <tag> systemd </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>特殊字符</title>
       <link href="//string-xc2-xa0/"/>
       <url>//string-xc2-xa0/</url>
