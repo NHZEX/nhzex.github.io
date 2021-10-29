@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2021-10-29T04:49:05.000Z</updated>
+  <updated>2021-10-29T04:52:27.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://nhzex.github.io/linux-systemd/"/>
     <id>https://nhzex.github.io/linux-systemd/</id>
     <published>2021-10-29T04:45:40.000Z</published>
-    <updated>2021-10-29T04:49:05.000Z</updated>
+    <updated>2021-10-29T04:52:27.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="ISSUE"><a href="#ISSUE" class="headerlink" title="ISSUE"></a>ISSUE</h3><ul><li><p>提示找不到 <code>service unit file</code></p><ul><li>通过执行<code>systemctl daemon-reload</code>重载配置文件</li><li>如果是通过<code>ln</code>建立连接，那必须是建议硬链接，不支持软连接。</li></ul></li></ul>]]></content>
+    <content type="html"><![CDATA[<h3 id="ISSUE"><a href="#ISSUE" class="headerlink" title="ISSUE"></a>ISSUE</h3><ul><li><p>提示找不到 <code>service unit file</code></p><ul><li>通过执行<code>systemctl daemon-reload</code>和<code>systemctl --user daemon-reload</code>重载配置文件</li><li>如果是通过<code>ln</code>建立连接，那必须是建议硬链接，不支持软连接。</li></ul></li></ul>]]></content>
     
     
       
