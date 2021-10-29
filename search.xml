@@ -4,6 +4,146 @@
   
     
     <entry>
+      <title>查找 mysql 数据存放位置</title>
+      <link href="//mysql-data-dir/"/>
+      <url>//mysql-data-dir/</url>
+      
+        <content type="html"><![CDATA[<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">show</span> <span class="keyword">global</span> variables <span class="keyword">like</span> &quot;%datadir%&quot;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql binlog</title>
+      <link href="//mysql-binlog/"/>
+      <url>//mysql-binlog/</url>
+      
+        <content type="html"><![CDATA[<h1 id="mysql-binlog-日志清理"><a href="#mysql-binlog-日志清理" class="headerlink" title="mysql binlog 日志清理"></a>mysql binlog 日志清理</h1><p>如果开了主从，先确定正在使用的<code>binlog</code>文件。</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">show</span> master status\G </span><br><span class="line"><span class="keyword">show</span> slave status\G </span><br></pre></td></tr></table></figure><h2 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 删除指定日期 binlog 记录</span><br><span class="line">purge master logs before<span class="string">&#x27;2016-09-01 17:20:00&#x27;</span>;</span><br><span class="line"># 删除<span class="number">10</span>天前的 binlog 记录</span><br><span class="line">purge master logs before date_sub(<span class="built_in">current_date</span>, <span class="type">interval</span> <span class="number">10</span> <span class="keyword">day</span>);</span><br><span class="line"># 删除指定日期 binlog 文件</span><br><span class="line">purge master logs <span class="keyword">to</span><span class="string">&#x27;mysql-bin.000022&#x27;</span>;</span><br><span class="line"># 删除所有 binlog 文件</span><br><span class="line">reset master;</span><br></pre></td></tr></table></figure><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>设置<code>binlog</code>过期时间</p><h3 id="gt-8-0"><a href="#gt-8-0" class="headerlink" title="&gt;= 8.0"></a>&gt;= 8.0</h3><p>  <code>set global binlog_expire_logs_seconds = 3600 * 24;</code></p><h3 id="lt-5-7"><a href="#lt-5-7" class="headerlink" title="&lt;= 5.7"></a>&lt;= 5.7</h3><p>  <code>set global expire_logs_days = 30;</code> </p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://blog.csdn.net/vkingnew/article/details/81953350">MySQL 8.0.12 binlog参数binlog_expire_logs_seconds</a></li><li><a href="https://www.cnblogs.com/xxoome/p/9802684.html">mysql binlog日志自动清理及手动删除</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>github-actions</title>
+      <link href="//github-actions/"/>
+      <url>//github-actions/</url>
+      
+        <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> github </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>git 修改文件权限</title>
+      <link href="//git-chmod/"/>
+      <url>//git-chmod/</url>
+      
+        <content type="html"><![CDATA[<p>修改<code>git</code>跟踪文件的权限信息，特别是在<code>windows</code>下。</p><p>追踪时添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add --chmod=+x path/to/file</span><br></pre></td></tr></table></figure><p>添加权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git update-index --chmod=+x path/to/file</span><br></pre></td></tr></table></figure><p>删除权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git update-index --chmod=-x path/to/file</span><br></pre></td></tr></table></figure><p>查看权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git ls-files --stage path/to</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://git-scm.com/docs/git-update-index#Documentation/git-update-index.txt---chmod-x">https://git-scm.com/docs/git-update-index#Documentation/git-update-index.txt---chmod-x</a></li><li><a href="https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git">https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>linux 用户管理</title>
+      <link href="//linux-user-management/"/>
+      <url>//linux-user-management/</url>
+      
+        <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li>addgroup</li><li>adduser</li><li>passwd</li><li>chpasswd</li></ul><h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul><li>/etc/passwd</li><li>/etc/shadow</li><li>/etc/group</li><li>/etc/gshadow</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/41161408">列出 Linux 系统上所有用户的 3 种方法</a></li><li><a href="https://blog.whsir.com/post-5341.html">adduser和addgroup命令讲解</a></li><li><a href="https://segmentfault.com/a/1190000024532631">Ubuntu群组管理</a></li><li><a href="http://manpages.ubuntu.com/manpages/trusty/man8/adduser.8.html">Ubuntu man adduser</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> linux </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mysql exists 用法记录</title>
+      <link href="//mysql-exists/"/>
+      <url>//mysql-exists/</url>
+      
+        <content type="html"><![CDATA[<p><code>exists</code>用于检查子查询是否至少会返回一行数据，该子查询实际上并不返回任何数据，而是返回值<code>true</code>或<code>false</code>。 </p><p>例子：排除已经关联的用户</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> `<span class="keyword">user</span>` <span class="keyword">WHERE</span> <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> ( <span class="keyword">SELECT</span> `id` <span class="keyword">FROM</span> `user_assign` <span class="keyword">WHERE</span> user_id <span class="operator">=</span> admin_user.id )</span><br></pre></td></tr></table></figure><p>参考</p><ul><li><a href="https://segmentfault.com/a/1190000038464558">Mysql exists用法小记</a></li><li><a href="https://dev.mysql.com/doc/refman/8.0/en/exists-and-not-exists-subqueries.html">Subqueries with EXISTS or NOT EXISTS</a></li><li><a href="https://stackoverflow.com/questions/14190788/subqueries-with-exists-vs-in-mysql">Subqueries with EXISTS vs IN - MySQL</a></li><li><a href="https://blog.csdn.net/J080624/article/details/72910548">MySQL - exists与in及any的用法</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+            <tag> sql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>linux-systemd</title>
       <link href="//linux-systemd/"/>
       <url>//linux-systemd/</url>
@@ -35,7 +175,7 @@
       <link href="//string-xc2-xa0/"/>
       <url>//string-xc2-xa0/</url>
       
-        <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space</p>]]></content>
+        <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space  </p><p>相关资料  </p><ul><li><a href="https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp">https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp</a></li></ul>]]></content>
       
       
       

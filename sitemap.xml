@@ -2,7 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://nhzex.github.io/linux-systemd/</loc>
+    <loc>https://nhzex.github.io/mysql-binlog/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/mysql-data-dir/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/github-actions/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/git-chmod/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/mysql-exists/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/linux-user-management/</loc>
     
     <lastmod>2021-10-29</lastmod>
     
@@ -11,7 +46,14 @@
   <url>
     <loc>https://nhzex.github.io/string-xc2-xa0/</loc>
     
-    <lastmod>2021-10-22</lastmod>
+    <lastmod>2021-10-29</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/linux-systemd/</loc>
+    
+    <lastmod>2021-10-29</lastmod>
     
   </url>
   
@@ -149,14 +191,14 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/categories/index.html</loc>
+    <loc>https://nhzex.github.io/tags/index.html</loc>
     
     <lastmod>2019-10-05</lastmod>
     
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/tags/index.html</loc>
+    <loc>https://nhzex.github.io/categories/index.html</loc>
     
     <lastmod>2019-10-05</lastmod>
     
@@ -326,7 +368,21 @@
   </url>
   
   <url>
+    <loc>https://nhzex.github.io/tags/github/</loc>
+    <lastmod>2021-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://nhzex.github.io/tags/systemd/</loc>
+    <lastmod>2021-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/tags/sql/</loc>
     <lastmod>2021-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -371,6 +427,13 @@
   
   <url>
     <loc>https://nhzex.github.io/categories/linux/</loc>
+    <lastmod>2021-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/categories/mysql/</loc>
     <lastmod>2021-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>

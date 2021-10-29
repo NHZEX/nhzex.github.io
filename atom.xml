@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2021-10-29T04:52:27.000Z</updated>
+  <updated>2021-10-29T11:09:06.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -15,6 +15,158 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>查找 mysql 数据存放位置</title>
+    <link href="https://nhzex.github.io/mysql-data-dir/"/>
+    <id>https://nhzex.github.io/mysql-data-dir/</id>
+    <published>2021-10-29T10:59:31.000Z</published>
+    <updated>2021-10-29T11:09:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">show</span> <span class="keyword">global</span> variables <span class="keyword">like</span> &quot;%datadir%&quot;;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight sql&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql binlog</title>
+    <link href="https://nhzex.github.io/mysql-binlog/"/>
+    <id>https://nhzex.github.io/mysql-binlog/</id>
+    <published>2021-10-29T10:56:56.000Z</published>
+    <updated>2021-10-29T11:09:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="mysql-binlog-日志清理"><a href="#mysql-binlog-日志清理" class="headerlink" title="mysql binlog 日志清理"></a>mysql binlog 日志清理</h1><p>如果开了主从，先确定正在使用的<code>binlog</code>文件。</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">show</span> master status\G </span><br><span class="line"><span class="keyword">show</span> slave status\G </span><br></pre></td></tr></table></figure><h2 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 删除指定日期 binlog 记录</span><br><span class="line">purge master logs before<span class="string">&#x27;2016-09-01 17:20:00&#x27;</span>;</span><br><span class="line"># 删除<span class="number">10</span>天前的 binlog 记录</span><br><span class="line">purge master logs before date_sub(<span class="built_in">current_date</span>, <span class="type">interval</span> <span class="number">10</span> <span class="keyword">day</span>);</span><br><span class="line"># 删除指定日期 binlog 文件</span><br><span class="line">purge master logs <span class="keyword">to</span><span class="string">&#x27;mysql-bin.000022&#x27;</span>;</span><br><span class="line"># 删除所有 binlog 文件</span><br><span class="line">reset master;</span><br></pre></td></tr></table></figure><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>设置<code>binlog</code>过期时间</p><h3 id="gt-8-0"><a href="#gt-8-0" class="headerlink" title="&gt;= 8.0"></a>&gt;= 8.0</h3><p>  <code>set global binlog_expire_logs_seconds = 3600 * 24;</code></p><h3 id="lt-5-7"><a href="#lt-5-7" class="headerlink" title="&lt;= 5.7"></a>&lt;= 5.7</h3><p>  <code>set global expire_logs_days = 30;</code> </p><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://blog.csdn.net/vkingnew/article/details/81953350">MySQL 8.0.12 binlog参数binlog_expire_logs_seconds</a></li><li><a href="https://www.cnblogs.com/xxoome/p/9802684.html">mysql binlog日志自动清理及手动删除</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;mysql-binlog-日志清理&quot;&gt;&lt;a href=&quot;#mysql-binlog-日志清理&quot; class=&quot;headerlink&quot; title=&quot;mysql binlog 日志清理&quot;&gt;&lt;/a&gt;mysql binlog 日志清理&lt;/h1&gt;&lt;p&gt;如果开了主从，先确定</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github-actions</title>
+    <link href="https://nhzex.github.io/github-actions/"/>
+    <id>https://nhzex.github.io/github-actions/</id>
+    <published>2021-10-29T10:50:10.000Z</published>
+    <updated>2021-10-29T10:56:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;资料&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context&quot;&gt;https://docs.github.com/cn/acti</summary>
+      
+    
+    
+    
+    
+    <category term="github" scheme="https://nhzex.github.io/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git 修改文件权限</title>
+    <link href="https://nhzex.github.io/git-chmod/"/>
+    <id>https://nhzex.github.io/git-chmod/</id>
+    <published>2021-10-29T10:44:47.000Z</published>
+    <updated>2021-10-29T10:49:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>修改<code>git</code>跟踪文件的权限信息，特别是在<code>windows</code>下。</p><p>追踪时添加</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git add --chmod=+x path/to/file</span><br></pre></td></tr></table></figure><p>添加权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git update-index --chmod=+x path/to/file</span><br></pre></td></tr></table></figure><p>删除权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git update-index --chmod=-x path/to/file</span><br></pre></td></tr></table></figure><p>查看权限</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git ls-files --stage path/to</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://git-scm.com/docs/git-update-index#Documentation/git-update-index.txt---chmod-x">https://git-scm.com/docs/git-update-index#Documentation/git-update-index.txt---chmod-x</a></li><li><a href="https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git">https://stackoverflow.com/questions/40978921/how-to-add-chmod-permissions-to-file-in-git</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;修改&lt;code&gt;git&lt;/code&gt;跟踪文件的权限信息，特别是在&lt;code&gt;windows&lt;/code&gt;下。&lt;/p&gt;
+&lt;p&gt;追踪时添加&lt;/p&gt;
+&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre</summary>
+      
+    
+    
+    
+    
+    <category term="git" scheme="https://nhzex.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>linux 用户管理</title>
+    <link href="https://nhzex.github.io/linux-user-management/"/>
+    <id>https://nhzex.github.io/linux-user-management/</id>
+    <published>2021-10-29T10:24:19.000Z</published>
+    <updated>2021-10-29T10:38:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li>addgroup</li><li>adduser</li><li>passwd</li><li>chpasswd</li></ul><h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul><li>/etc/passwd</li><li>/etc/shadow</li><li>/etc/group</li><li>/etc/gshadow</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/41161408">列出 Linux 系统上所有用户的 3 种方法</a></li><li><a href="https://blog.whsir.com/post-5341.html">adduser和addgroup命令讲解</a></li><li><a href="https://segmentfault.com/a/1190000024532631">Ubuntu群组管理</a></li><li><a href="http://manpages.ubuntu.com/manpages/trusty/man8/adduser.8.html">Ubuntu man adduser</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;addgroup&lt;/li&gt;
+&lt;li&gt;adduser&lt;/li&gt;
+&lt;li&gt;passwd&lt;/li&gt;
+&lt;li&gt;chpasswd&lt;/li&gt;</summary>
+      
+    
+    
+    
+    <category term="linux" scheme="https://nhzex.github.io/categories/linux/"/>
+    
+    
+    <category term="linux" scheme="https://nhzex.github.io/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mysql exists 用法记录</title>
+    <link href="https://nhzex.github.io/mysql-exists/"/>
+    <id>https://nhzex.github.io/mysql-exists/</id>
+    <published>2021-10-29T10:16:50.000Z</published>
+    <updated>2021-10-29T10:41:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>exists</code>用于检查子查询是否至少会返回一行数据，该子查询实际上并不返回任何数据，而是返回值<code>true</code>或<code>false</code>。 </p><p>例子：排除已经关联的用户</p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> `<span class="keyword">user</span>` <span class="keyword">WHERE</span> <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> ( <span class="keyword">SELECT</span> `id` <span class="keyword">FROM</span> `user_assign` <span class="keyword">WHERE</span> user_id <span class="operator">=</span> admin_user.id )</span><br></pre></td></tr></table></figure><p>参考</p><ul><li><a href="https://segmentfault.com/a/1190000038464558">Mysql exists用法小记</a></li><li><a href="https://dev.mysql.com/doc/refman/8.0/en/exists-and-not-exists-subqueries.html">Subqueries with EXISTS or NOT EXISTS</a></li><li><a href="https://stackoverflow.com/questions/14190788/subqueries-with-exists-vs-in-mysql">Subqueries with EXISTS vs IN - MySQL</a></li><li><a href="https://blog.csdn.net/J080624/article/details/72910548">MySQL - exists与in及any的用法</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;exists&lt;/code&gt;用于检查子查询是否至少会返回一行数据，该子查询实际上并不返回任何数据，而是返回值&lt;code&gt;true&lt;/code&gt;或&lt;code&gt;false&lt;/code&gt;。 &lt;/p&gt;
+&lt;p&gt;例子：排除已经关联的用户&lt;/p&gt;
+&lt;figure class=&quot;</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
+    
+    <category term="sql" scheme="https://nhzex.github.io/tags/sql/"/>
+    
+  </entry>
   
   <entry>
     <title>linux-systemd</title>
@@ -50,15 +202,17 @@
     <link href="https://nhzex.github.io/string-xc2-xa0/"/>
     <id>https://nhzex.github.io/string-xc2-xa0/</id>
     <published>2021-10-22T11:06:27.000Z</published>
-    <updated>2021-10-22T11:07:35.000Z</updated>
+    <updated>2021-10-29T10:21:56.000Z</updated>
     
-    <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space</p>]]></content>
+    <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space  </p><p>相关资料  </p><ul><li><a href="https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp">https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp</a></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;特殊空格：&lt;code&gt;\xc2\xa0&lt;/code&gt; Non-breaking space&lt;/p&gt;
-</summary>
+    <summary type="html">&lt;p&gt;特殊空格：&lt;code&gt;\xc2\xa0&lt;/code&gt; Non-breaking space  &lt;/p&gt;
+&lt;p&gt;相关资料  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/40724543/how-to-r</summary>
       
     
     
@@ -357,146 +511,6 @@
     <category term="nginx" scheme="https://nhzex.github.io/tags/nginx/"/>
     
     <category term="url" scheme="https://nhzex.github.io/tags/url/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu-vnc-xfce4</title>
-    <link href="https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html"/>
-    <id>https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html</id>
-    <published>2020-01-01T08:44:48.000Z</published>
-    <updated>2021-09-16T04:16:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="REF"><a href="#REF" class="headerlink" title="REF"></a>REF</h1><p><a href="https://www.linuxprobe.com/ubuntu-vnc-xfce4.html">https://www.linuxprobe.com/ubuntu-vnc-xfce4.html</a><br><a href="https://www.tightvnc.com/">https://www.tightvnc.com/</a><br><a href="http://blog.shell909090.org/blog/archives/1925/">http://blog.shell909090.org/blog/archives/1925/</a></p><p>runvnc.sh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">vncserver -kill :1</span><br><span class="line">vncserver :1 -geometry 1440x900 -geometry 1920x1080 -geometry 1024x600</span><br></pre></td></tr></table></figure><p>切换分辨率<br>xrandr // 查看可用分辨率<br>xrandr -s Number // 切换到指定分辨率</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#!/bin/sh</span><br><span class="line">  </span><br><span class="line"># Uncomment the following two lines for normal desktop:</span><br><span class="line"># unset SESSION_MANAGER</span><br><span class="line"># exec /etc/X11/xinit/xinitrc</span><br><span class="line"></span><br><span class="line">[ -x /etc/vnc/xstartup ] &amp;&amp; exec /etc/vnc/xstartup</span><br><span class="line">[ -r $HOME/.Xresources ] &amp;&amp; xrdb $HOME/.Xresources</span><br><span class="line"></span><br><span class="line"># xsetroot -solid grey</span><br><span class="line"># vncconfig -iconic &amp;</span><br><span class="line"># x-terminal-emulator -geometry 80x24+10+10 -ls -title &quot;$VNCDESKTOP Desktop&quot; &amp;</span><br><span class="line"># x-window-manager &amp;</span><br><span class="line"></span><br><span class="line"># xfce4</span><br><span class="line">xfce4-panel &amp;</span><br><span class="line">startxfce4 &amp;</span><br><span class="line">fcitx &amp;</span><br><span class="line">vncconfig -nowin -display :1</span><br></pre></td></tr></table></figure><p>安装输入法</p><p>sudo apt install fcitx-sunpinyin</p><p>vim /etc/environment </p><p>~/.xinirc</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export GTK_IM_MODULE=fcitx</span><br><span class="line">export QT_IM_MODULE=fcitx</span><br><span class="line">export XMODIFIERS=&quot;@im=fcitx&quot;</span><br></pre></td></tr></table></figure><p>简单文本编辑器</p><p>apt install mousepad</p><h2 id="解决输入无效问题"><a href="#解决输入无效问题" class="headerlink" title="解决输入无效问题"></a>解决输入无效问题</h2><p><a href="https://blog.csdn.net/Oscer2016/article/details/65677920">https://blog.csdn.net/Oscer2016/article/details/65677920</a></p><h2 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h2><ol><li>终端无法打开</li></ol><p>错误: # Error constructing proxy for org.gnome.Terminal:/org/gnome/Terminal/Factory0: Error calling StartServiceByName for org.gnome.Terminal: Timeout was reached  </p><ol><li><p>尝试重新安装gnome-terminal<br><code>apt install --reinstall gnome-terminal</code><br>接下来，运行以下命令以详细模式运行gnome-terminal，以查看是否有输出：<br><code>gnome-terminal --verbose</code></p></li><li><p>尝试安装xfce4-terminal<br><code>apt install xfce4-terminal</code><br>xfce-terminal设置为在CTRL+ALT+T上启动的缺省终端<br><code>update-alternatives --config x-terminal-emulator</code><br>选择xfce4-terminal的数字，然后按ENTER设置</p></li></ol><p>See: <a href="https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04">https://www.helplib.cn/tianye/terminal-failing-to-launch-in-ubuntu-18-04</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;REF&quot;&gt;&lt;a href=&quot;#REF&quot; class=&quot;headerlink&quot; title=&quot;REF&quot;&gt;&lt;/a&gt;REF&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://www.linuxprobe.com/ubuntu-vnc-xfce4.html&quot;&gt;https:/</summary>
-      
-    
-    
-    
-    
-    <category term="ubuntu" scheme="https://nhzex.github.io/tags/ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>ubuntu-x11</title>
-    <link href="https://nhzex.github.io/2020/01/01/ubuntu-x11.html"/>
-    <id>https://nhzex.github.io/2020/01/01/ubuntu-x11.html</id>
-    <published>2020-01-01T07:19:12.000Z</published>
-    <updated>2021-09-16T04:16:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install libgl1-mesa-glx libx11-xcb1 libasound2 libglib2.0-0</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span</summary>
-      
-    
-    
-    
-    
-    <category term="ubuntu" scheme="https://nhzex.github.io/tags/ubuntu/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>wsl 使用记录</title>
-    <link href="https://nhzex.github.io/2019/12/08/wsl.html"/>
-    <id>https://nhzex.github.io/2019/12/08/wsl.html</id>
-    <published>2019-12-08T02:11:23.000Z</published>
-    <updated>2021-09-16T04:16:34.000Z</updated>
-    
-    
-    
-    
-    <category term="wsl" scheme="https://nhzex.github.io/categories/wsl/"/>
-    
-    
-    <category term="wsl" scheme="https://nhzex.github.io/tags/wsl/"/>
-    
-    <category term="windows" scheme="https://nhzex.github.io/tags/windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>openssl 使用笔记</title>
-    <link href="https://nhzex.github.io/2019/10/06/openssl-use.html"/>
-    <id>https://nhzex.github.io/2019/10/06/openssl-use.html</id>
-    <published>2019-10-06T17:05:41.000Z</published>
-    <updated>2021-09-16T04:16:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="证书格式转换"><a href="#证书格式转换" class="headerlink" title="证书格式转换"></a>证书格式转换</h2><h4 id="pem-转-crt"><a href="#pem-转-crt" class="headerlink" title="pem 转 crt"></a>pem 转 crt</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ openssl x509 -outform der -in pve_ca.pem -out pve_cert.crt</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;证书格式转换&quot;&gt;&lt;a href=&quot;#证书格式转换&quot; class=&quot;headerlink&quot; title=&quot;证书格式转换&quot;&gt;&lt;/a&gt;证书格式转换&lt;/h2&gt;&lt;h4 id=&quot;pem-转-crt&quot;&gt;&lt;a href=&quot;#pem-转-crt&quot; class=&quot;headerlink</summary>
-      
-    
-    
-    
-    <category term="openssl" scheme="https://nhzex.github.io/categories/openssl/"/>
-    
-    
-    <category term="openssl" scheme="https://nhzex.github.io/tags/openssl/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Git 与 SSH 相遇时的若干问题</title>
-    <link href="https://nhzex.github.io/2019/10/06/git-with-ssh-errors.html"/>
-    <id>https://nhzex.github.io/2019/10/06/git-with-ssh-errors.html</id>
-    <published>2019-10-06T15:58:53.000Z</published>
-    <updated>2021-09-16T04:16:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h3><p>Host key verification failed.<br>fatal: Could not read from remote repository.  </p><h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keyscan -t rsa github.com &gt;&gt; ~/.ssh/known_hosts</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository">https://stackoverflow.com/questions/13363553/git-error-host-key-verification-failed-when-connecting-to-remote-repository</a></li></ul><hr><h3 id="错误-1"><a href="#错误-1" class="headerlink" title="错误"></a>错误</h3><p>Permissions 0644 for ‘/root/.ssh/id_rsa’ are too open.<br>It is required that your private key files are NOT accessible by others.<br>This private key will be ignored.<br>Load key “/root/.ssh/id_rsa”: bad permissions<br>Permission denied (publickey).<br>fatal: Could not read from remote repository.  </p><h3 id="解决-1"><a href="#解决-1" class="headerlink" title="解决"></a>解决</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ chmod -R 0600 ~/.ssh</span><br></pre></td></tr></table></figure><h3 id="参考-1"><a href="#参考-1" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="http://www.filepermissions.com/">http://www.filepermissions.com/</a></li></ul><hr>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;错误&quot;&gt;&lt;a href=&quot;#错误&quot; class=&quot;headerlink&quot; title=&quot;错误&quot;&gt;&lt;/a&gt;错误&lt;/h3&gt;&lt;p&gt;Host key verification failed.&lt;br&gt;fatal: Could not read from remote rep</summary>
-      
-    
-    
-    
-    <category term="git" scheme="https://nhzex.github.io/categories/git/"/>
-    
-    
-    <category term="git" scheme="https://nhzex.github.io/tags/git/"/>
-    
-    <category term="ssh" scheme="https://nhzex.github.io/tags/ssh/"/>
-    
-    <category term="error" scheme="https://nhzex.github.io/tags/error/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo 建站记录</title>
-    <link href="https://nhzex.github.io/2019/10/06/hexo-site-guide.html"/>
-    <id>https://nhzex.github.io/2019/10/06/hexo-site-guide.html</id>
-    <published>2019-10-06T07:27:46.000Z</published>
-    <updated>2021-10-11T06:30:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="资源-主题"><a href="#资源-主题" class="headerlink" title="资源-主题"></a>资源-主题</h2><ul><li><a href="https://github.com/theme-next/hexo-theme-next">Next</a><br>  (一款风格优雅的高质量 Hexo 主题)<ul><li><a href="https://theme-next.js.org/">https://theme-next.js.org/</a> </li></ul></li><li><a href="https://github.com/blinkfox/hexo-theme-matery">Matery</a><br>  (一个基于材料设计和响应式设计而成的全面、美观的Hexo主题)</li><li><a href="https://github.com/xaoxuu/hexo-theme-material-x">material-x</a><br>  (一个简约的卡片式Hexo博客主题)</li><li><a href="https://github.com/Molunerfinn/hexo-theme-melody">melody</a><br>  (A simple &amp; beautiful &amp; fast theme for Hexo.)</li><li><a href="https://github.com/yelog/hexo-theme-3-hexo">3-hexo</a><br>  (一个基于三段式设计的极简布局主题)</li></ul><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li>LEVEL 1<ul><li><a href="https://hexo.io/zh-cn/docs/">Hexo Docs</a> (zh, official)</li><li><a href="https://theme-next.org/docs">Next Documentation</a> (en, official)</li><li><a href="https://theme-next.iissnan.com/">Next Documentation</a> (zh, old)</li><li><a href="https://hexo-guide.readthedocs.io/zh_CN/latest/index.html">Hexo指南</a></li></ul></li><li>LEVEL 2<ul><li><a href="https://11.tt/posts/2018/set-up-hexo-with-coding-and-github/">基于Hexo+Coding+Github搭建个人博客的全过程</a></li><li><a href="https://xuanwo.io/2015/03/26/hexo-intor">史上最详细的Hexo博客搭建图文教程</a></li><li><a href="https://godweiyang.com/2018/04/13/hexo-blog/#toc-heading-14">超详细Hexo+Github博客搭建小白教程</a> (<a href="https://zhuanlan.zhihu.com/p/35668237">备用地址</a>)</li><li><a href="https://www.maoqitian.com/2019/03/12/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B-hexo-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/">从零开始 hexo 个人博客搭建完全指南</a></li><li><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程</a></li></ul></li><li>LEVEL 3<ul><li><a href="https://blog.junyu.io/posts/0004-hexo-config-settings.html">Hexo博客配置文件说明</a></li><li><a href="https://www.donlex.cn/archives/caeb67e2.html">Hexo中NexT主题添加置顶功能</a></li></ul></li></ul><h2 id="插件参考"><a href="#插件参考" class="headerlink" title="插件参考"></a>插件参考</h2><ul><li><a href="https://github.com/D0n9X1n/hexo-blog-encrypt">hexo-blog-encrypt</a><ul><li>基本使用：<a href="https://dsanying.gitee.io/posts/hexo-blog-encrypt/">https://dsanying.gitee.io/posts/hexo-blog-encrypt/</a></li><li>结合next：<a href="https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/">https://www.itfanr.cc/2021/04/16/hexo-blog-article-encryption/</a></li></ul></li></ul><h2 id="遇到问题"><a href="#遇到问题" class="headerlink" title="遇到问题"></a>遇到问题</h2><ul><li>持久连接导致打开页面变下载问题  <ul><li>解决方法：<a href="https://github.com/theme-next/hexo-theme-next/issues/471">https://github.com/theme-next/hexo-theme-next/issues/471</a>  </li></ul></li></ul><h2 id="第三方服务"><a href="#第三方服务" class="headerlink" title="第三方服务"></a>第三方服务</h2><ul><li><a href="https://busuanzi.ibruce.info/">不蒜子 - 访问统计</a></li><li><a href="https://uptimerobot.com/">uptimerobot - 状态监控</a></li></ul><h2 id="替代品"><a href="#替代品" class="headerlink" title="替代品"></a>替代品</h2><ul><li><a href="https://www.gohugo.org/">Hugo</a></li><li><a href="https://www.vuepress.cn/">VuePress</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;资源-主题&quot;&gt;&lt;a href=&quot;#资源-主题&quot; class=&quot;headerlink&quot; title=&quot;资源-主题&quot;&gt;&lt;/a&gt;资源-主题&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/theme-next/hexo-theme-ne</summary>
-      
-    
-    
-    
-    <category term="hexo" scheme="https://nhzex.github.io/categories/hexo/"/>
-    
-    
-    <category term="hexo" scheme="https://nhzex.github.io/tags/hexo/"/>
     
   </entry>
   
