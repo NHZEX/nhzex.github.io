@@ -21,23 +21,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nhzex.github.io","root":"/","images":"/images","scheme":"Gemini","darkmode":true,"version":"8.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
-<meta property="og:type" content="website">
-<meta property="og:title" content="zxin Blog">
-<meta property="og:url" content="https://nhzex.github.io/categories/%E6%9C%AA%E6%95%B4%E7%90%86/index.html">
+<meta name="description" content="这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="auth 设计资料">
+<meta property="og:url" content="https://nhzex.github.io/auth/index.html">
 <meta property="og:site_name" content="zxin Blog">
+<meta property="og:description" content="这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-10-30T15:00:15.000Z">
+<meta property="article:modified_time" content="2021-10-30T15:02:29.000Z">
 <meta property="article:author" content="zxin">
+<meta property="article:tag" content="secret">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://nhzex.github.io/categories/%E6%9C%AA%E6%95%B4%E7%90%86/">
+<link rel="canonical" href="https://nhzex.github.io/auth/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"categories/未整理/index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nhzex.github.io/auth/","path":"/auth/","title":"auth 设计资料"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>分类: 未整理 | zxin Blog</title>
+<title>auth 设计资料 | zxin Blog</title>
   
 
 
@@ -156,7 +161,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">29</span>
+          <span class="site-state-item-count">31</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -167,7 +172,7 @@
       </div>
       <div class="site-state-item site-state-tags">
           <a href="/tags/">
-        <span class="site-state-item-count">26</span>
+        <span class="site-state-item-count">28</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
@@ -198,50 +203,141 @@
 </noscript>
 
 
-    <div class="main-inner category posts-collapse">
+    <div class="main-inner post posts-expand">
 
 
   
-  
-  
-  <div class="post-block">
-    <div class="post-content">
-      <div class="collection-title">
-        <h2 class="collection-header">未整理
-          <small>分类</small>
-        </h2>
-      </div>
 
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/auth/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zxin">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zxin Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          auth 设计资料
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
       
-    <div class="collection-year">
-      <span class="collection-header">2021</span>
-    </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-      <div class="post-meta-container">
-        <time itemprop="dateCreated"
-              datetime="2021-10-30T19:31:58+08:00"
-              content="2021-10-30">
-          10-30
-        </time>
-      </div>
+      <time title="创建时间：2021-10-30 23:00:15 / 修改时间：23:02:29" itemprop="dateCreated datePublished" datetime="2021-10-30T23:00:15+08:00">2021-10-30</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%BE%85%E6%95%B4%E7%90%86/" itemprop="url" rel="index"><span itemprop="name">待整理</span></a>
+        </span>
+    </span>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/sku/" itemprop="url">
-            <span itemprop="name">SKU 资料</span>
-          </a>
-      </div>
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>518</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
 
-      
-    </header>
-  </article>
+        </div>
+      </header>
 
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，再重试一遍" data-whm="文章不能被校验，不过您还是能看看解密后的内容">
+  <script id="hbeData" type="hbeData" data-hmacdigest="624c1c15ff2e00a6493f7f19bad0f3cb60cee83313dc369ceab30dd982389607">66c9cb7f85419e75f8959c1d6312a359b6c5229434e5f4f6b9af2ce13567e8c0446a87c08ce4f560905795851f5551a04f6b1c3d429879013acfc83dc971514870d7fc719e01d93d241925a3128616f3cc798d02a6fb44b5c90d7b285779e18da667d27931f6ccb82832310397f973269ec4bf0f66935b5942a413009aa5e30a6f6b8f9af6711cb7267584da069eb7ff9ec19e517022feb21ac7a2e61f9e431de33beb3b8d99be24e90f3701d8307d2075087ccc0d1c6345b65bff62b071c261ac815300372eeb41b7c3c4dddb8aed9a66a50bd28f0d4c5335444a2dd94d67631961eb6d08f35861ca4dd289d3746556929b9d1299bc8dc0cb4ac78c16cd16889661f23818680819f9a8f23fabbe62b3d4da54ca81e0fe8cd7cdcc80de080a147c4ec7430e31051db5e0d49c1fe59760a688ac864b0320998bce874ae178bb61c7283c400743a0ee3966cb15f80912d915e25505f3380188e467bd8441d773a3b9ad0cd933f75041629111c7c2a46dfaafebb2eaea6664c4e835b21ef26f400482689dbfe7436d67982f0cccc06ec4365e5261dfe558e549033676c464c6e37f7669b0d67564a3daeaf3a9bc6dbdf11e095cc61b5c44df5159e1fb80c47f22ec4274218152ad45947db47c5876c99ba7bcd3aaceafff19c35c91a5363c515c0981cd189a412a7f2fc08ba2e88c5a96b1982517093ac61b27ec11cb343a165e236d3c292dcf520bba68c5c76acb643cd77d5cac8e20c899e3065ca456c1f6b741f172d76227dc2e0edaad5ec69eebca82c975350009dc3663ab4feacd7ccf848c3c8274208def1f7b60b6a59c8fce053b061a18305c6625cc13065b351ec3aa59453f516211c089f3b2698beb94aef5c7ed2b0b02c4774e2df705dde14ce3817b6788d019ca843959e4fe87b7cfeffc6161ae0f9f75984ed7382664a2122375e6fe3025f9c242d6683733b0c508c62785b41dd3b9e17cc9feae68969963b42e997419c174214535e91f5c67948d9df13302429f5c19b696afc20830a5ed06268a6da122effaa67b7c9a472bd611469ac2645cc6ae545a73412766f251f864391c2a5b586c457e9ffc6607035596be6cccf9082fe272a06301c2ddfe9d2401197a42e94a68b7c2e68932c8d1a5719d1f19f2fd3a4fb8f587f5606a7e066bb2ef3d1cb2ae7b2bf0293d64a0f857175cb93cebd5dfff01ccd18dc2d212d61d271475383a59d01dae59fc55e3577458594579baf96bcbfd0e53d8937300e3503ed2d2f39428a83d48b6bd4f90b9bae15b59818fd19fe12189a7c1201bda40fe479879f985cdd6c2ae82a04ea7465ac4e8a122297a58e8ff7cd33b7fa63325719bbe342d2f4075d898b9ba00a166353c7e8ae2a6b7c001b05a90a573343a82b3d1fdd871623eaccf167375fdce0af5e86e89da440226835601a18363d392bb1addbfbecf995fb16a94fb6b4c9a45e634f31ca471756e43cb330d47340bc146089a2212089b52a9dc1fa4bdc44442ba7c5c627ceeb160b58e070d6c085ebd6e8c06d134d901a29e14bfacb24baef85a34fe03c8e4feb634c023cff058cbef19e6ef7e8c9805055014599c9513b2f616c2702c7c8f18b00fc03ebed2cbc62284aeca6c81f2c45c0956a31f32ca49ad2723daeef68163737378db75044811699e5d4d066d5c5a83369fdf40ec9047069352700538b5482c8b3e8d379ba58c6019ba02c6b60f73a1824086fd1468b8a97a37bad82a8c7e0021beda192553a096e8b8b33d0534d5adb7eab673b26f66ea82c5e09889f394b80cd31a0b083bcd155c28910a1d674b344d92fcc7c6e3e9b07b19c53fc4f4f1e8a7ec164c908632a6bd66d2d11f846d229a331b13e1bf48dc8249339c32e8742ff525384d79b4a8b0202b8304f77e127e272ca13571ea56d6cfdd8d0accec88aef0bad7f699f55774224b638f88ff71795f043215813c35069ae98fa069a1b9cd32e0461a7202f91e4c836ae033af82a8b0b92224f35e34f9fb17076c1ac99d02310d25f3cabed1d51dbc552b44</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">需要输入密码！</span>
+      </label>
     </div>
   </div>
-  
-  
-  
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          
+
+<div class="post-copyright">
+<ul>
+  <li class="post-copyright-author">
+      <strong>本文作者： </strong>zxin
+  </li>
+  <li class="post-copyright-link">
+      <strong>本文链接：</strong>
+      <a href="https://nhzex.github.io/auth/" title="auth 设计资料">https://nhzex.github.io/auth/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/secret/" rel="tag"># secret</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/sku/" rel="prev" title="SKU 资料">
+                  <i class="fa fa-chevron-left"></i> SKU 资料
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/css-layout/" rel="next" title="前端资料">
+                  前端资料 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
 
 </div>
   </main>
@@ -263,13 +359,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">18k</span>
+    <span title="站点总字数">19k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">16 分钟</span>
+    <span title="站点阅读时长">17 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
