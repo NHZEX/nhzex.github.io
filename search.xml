@@ -4,7 +4,32 @@
   
     
     <entry>
-      <title>流量巨型文本文件</title>
+      <title>SKU 资料</title>
+      <link href="//sku/"/>
+      <url>//sku/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，再重试一遍" data-whm="文章不能被校验，不过您还是能看看解密后的内容">  <script id="hbeData" type="hbeData" data-hmacdigest="eb6e937c294c0eeeb2d813b53903fe09313b63be81dfcc81b3cbcfbf340e85a6">66c9cb7f85419e75f8959c1d6312a359b6c5229434e5f4f6b9af2ce13567e8c0ef084eba19d5d4fe0151dd2556268308cf2676d21f0de5a7b67833cd4af84fbf24bed5185ace5c251e8fbfa44b8f357484cccd8fc784b416a90a09921f1a04c61253ae2cdc1a0021285717aba11a25e2fa1f727180e28cb99668c698acd4aecd60547bcf332af52d1d2e2a314e61dfea123c7ca5c301c63317d6bae8d7d08d626b44a56967ebf0146701616ed18619d728bf04d62beffc2ab42cf625a363e818cb50a61187e6f6f249081716a82731c172d3744447286e6a97042858529f980890f3c9f079e6230dee95a2852878a2ce8ae284ef2ae6b3131f54dec652e4cfa0427321693a67ef82b4a28247a2c68d25592ef29b51c74bdb90a4a8d7dff63a965613ed3ccde3b535ca159d35bd5ebee1cece3d1638bcaddc2d0dfa4e7a23d95fc4baaf7ee42afab8e010103cf3a0686c393b44f53e6fafa67c998e8e1c1601bdf56665e31b5382a9b01b4ccd3d33b9a15ec4d69dc2bb7095a32d89cdaa53e6ea283cc5ea058a77b664d6099f83ae9ffd92fd6be924f275682bbe617bfdbabd7b25b57ddfde73719b53203fac2ff9cfd50b77661169f21d5bbf1990bdad42c04930731adeaeb051b59c4120dd48150f6e</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">需要输入密码！</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      <categories>
+          
+          <category> 未整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> secret </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>浏览巨型文本文件</title>
       <link href="//open-big-text-files/"/>
       <url>//open-big-text-files/</url>
       
