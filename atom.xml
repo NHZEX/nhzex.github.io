@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2021-10-30T15:07:50.000Z</updated>
+  <updated>2021-11-01T17:11:30.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -15,6 +15,121 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Openssl Aes</title>
+    <link href="https://nhzex.github.io/openssl-aes/"/>
+    <id>https://nhzex.github.io/openssl-aes/</id>
+    <published>2021-11-01T17:03:51.000Z</published>
+    <updated>2021-11-01T17:11:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，再重试一遍" data-whm="文章不能被校验，不过您还是能看看解密后的内容">  <script id="hbeData" type="hbeData" data-hmacdigest="c597c10895a28148c42b812fd87db72eba6a842f1459301ce5bf651077c1c77f">66c9cb7f85419e75f8959c1d6312a359b6c5229434e5f4f6b9af2ce13567e8c0ef084eba19d5d4fe0151dd255626830865599ac7b11a71274b0a2b38223428b59cd8097686e0200092dc6417fdf28b546e4dbfd0606132c2bda0993e155c93556d632c4e5cbe50eb7dedf968d0add779d8ddabdf1f5d5b23b82883eca7d3e94565ab1f4fe9ffac30aba16c1bd4f977987caa4153ec4dc8a3f3f8af698b9ea90946dac6e4b5eaf024c48f942552e2e7f772b0f69b45903ac477d5538b9cd9234bc1dbedf4b4f48f84a74f078a0dc701037535f3b8ec93e92cec22d0fb3a286c657328ad6b67c409c4f0e091617e2c343195ccf132714bf0df9cf2853af0389eab919096b8cfe8cb2ac6b7b2bcdde7450cfc45c6f5f360257a595f99009519bec5321833af65d2caea7a5190ff5cb59f23bb04ea965b85cbceae17256d8ccdef370fe2eef190dbf85528583daa7b5d9dc92e50b9f0e6f100336aa90d8ac11b9e17c8e6706fa68c61ee21b638f97dedaf0e6aa41184b20d2135a49f7dfeed39f0963d8993a66a3d5904b8d122d64e10fcd631757e4f2d0d4899ccacfb443ff86b2b82558671dc43b6e65eedbd477d0caed683b082c0aed10fcb22d6d65d8177f89c4407bf5488c60964f4de705f078728762b334eff4f8d1c014a51aae4a7bf35b390b50dda56d375509009d7d3412001bd5b5ab55dbd25595f1b5194df49a073df82fbd322b7fd6f335cb4f8627fbd3c89e4c2767a7a7a82b7069db6e90ad903f4</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">需要输入密码！</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。</summary>
+    
+    
+    
+    
+    <category term="secret" scheme="https://nhzex.github.io/tags/secret/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>RabbitMQ</title>
+    <link href="https://nhzex.github.io/rabbit_mq/"/>
+    <id>https://nhzex.github.io/rabbit_mq/</id>
+    <published>2021-11-01T17:00:59.000Z</published>
+    <updated>2021-11-01T17:02:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><ul><li><a href="https://www.jianshu.com/p/dae5bbed39b1">https://www.jianshu.com/p/dae5bbed39b1</a></li><li><a href="https://www.rabbitmq.com/install-windows.html#managing">https://www.rabbitmq.com/install-windows.html#managing</a></li><li><a href="https://hub.docker.com/_/rabbitmq">https://hub.docker.com/_/rabbitmq</a></li><li><a href="https://www.cnblogs.com/starof/p/4173413.html">https://www.cnblogs.com/starof/p/4173413.html</a></li><li><a href="https://segmentfault.com/a/1190000022670544">https://segmentfault.com/a/1190000022670544</a></li><li><a href="https://stackoverflow.com/questions/53374144/rabbitmq-ack-timeout">https://stackoverflow.com/questions/53374144/rabbitmq-ack-timeout</a></li><li><a href="https://www.rabbitmq.com/confirms.html">https://www.rabbitmq.com/confirms.html</a></li><li><a href="https://github.com/imiphp/imi-amqp">https://github.com/imiphp/imi-amqp</a></li><li><a href="https://www.zhihu.com/question/54152397">https://www.zhihu.com/question/54152397</a></li><li><a href="https://segmentfault.com/a/1190000019123489">https://segmentfault.com/a/1190000019123489</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;资料&quot;&gt;&lt;a href=&quot;#资料&quot; class=&quot;headerlink&quot; title=&quot;资料&quot;&gt;&lt;/a&gt;资料&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.jianshu.com/p/dae5bbed39b1&quot;&gt;https://www.jia</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql 资料</title>
+    <link href="https://nhzex.github.io/mysql/"/>
+    <id>https://nhzex.github.io/mysql/</id>
+    <published>2021-11-01T16:58:59.000Z</published>
+    <updated>2021-11-01T17:02:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h3><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;虚拟列&quot;&gt;&lt;a href=&quot;#虚拟列&quot; class=&quot;headerlink&quot; title=&quot;虚拟列&quot;&gt;&lt;/a&gt;虚拟列&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.cnblogs.com/yjmyzz/p/json-type-and-virt</summary>
+      
+    
+    
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>php</title>
+    <link href="https://nhzex.github.io/php/"/>
+    <id>https://nhzex.github.io/php/</id>
+    <published>2021-11-01T15:15:45.000Z</published>
+    <updated>2021-11-01T16:58:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><ul><li><a href="https://github.com/php-ds/ext-ds">ds</a></li><li><a href="https://github.com/TysonAndre/pecl-teds">Teds</a> </li></ul><h2 id="通用库"><a href="#通用库" class="headerlink" title="通用库"></a>通用库</h2><ul><li><a href="https://github.com/whsv26/functional">Functional PHP</a></li><li><a href="https://github.com/loophp/collection">PHP Collection</a></li><li><a href="https://github.com/azjezz/psl">Psl - PHP Standard Library</a></li></ul><h2 id="未归类"><a href="#未归类" class="headerlink" title="未归类"></a>未归类</h2><ul><li><a href="https://github.com/ryangjchandler/using">using</a></li></ul><h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><ul><li><a href="https://github.com/brick/math">math</a></li></ul><h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><ul><li><a href="https://github.com/symfony/workflow">symfony/workflow</a><ul><li><a href="https://symfony.com/doc/current/workflow.html">doc</a></li><li><a href="https://www.graphviz.org/theory/">graphviz</a></li></ul></li><li><a href="https://github.com/phpmentors-jp/workflower">workflower</a></li></ul><h4 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h4><ul><li><a href="https://www.reddit.com/r/PHP/comments/pwg8g6/in_this_article_i_explain_the_symfony_workflow/">https://www.reddit.com/r/PHP/comments/pwg8g6/in_this_article_i_explain_the_symfony_workflow/</a></li><li><a href="https://woutercarabain.com/webdevelopment/the-symfony-workflow-component-explained/">https://woutercarabain.com/webdevelopment/the-symfony-workflow-component-explained/</a></li></ul><h2 id="数据转换"><a href="#数据转换" class="headerlink" title="数据转换"></a>数据转换</h2><ul><li><a href="https://github.com/pimlie/php-unit-conversion">php-unit-conversion</a></li><li><a href="https://github.com/jordanbrauer/unit-converter">unit-converter</a></li><li><a href="https://packagist.org/packages/crisu83/php-conversion">php-conversion</a></li><li><a href="https://packagist.org/packages/php-units-of-measure/php-units-of-measure">php-units-of-measure</a></li></ul><h2 id="地址格式化"><a href="#地址格式化" class="headerlink" title="地址格式化"></a>地址格式化</h2><ul><li><a href="https://github.com/dasprid/localized-address-format">localized-address-format</a></li><li><a href="https://github.com/joaocarmo/i18n-postal-address">i18n-postal-address</a></li></ul><h4 id="资料-1"><a href="#资料-1" class="headerlink" title="资料"></a>资料</h4><ul><li><a href="https://stackoverflow.com/questions/11160192/how-to-parse-freeform-street-postal-address-out-of-text-and-into-components">https://stackoverflow.com/questions/11160192/how-to-parse-freeform-street-postal-address-out-of-text-and-into-components</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;数据结构&quot;&gt;&lt;a href=&quot;#数据结构&quot; class=&quot;headerlink&quot; title=&quot;数据结构&quot;&gt;&lt;/a&gt;数据结构&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/php-ds/ext-ds&quot;&gt;ds&lt;/a&gt;&lt;/li&gt;
+&lt;</summary>
+      
+    
+    
+    
+    <category term="php" scheme="https://nhzex.github.io/categories/php/"/>
+    
+    
+    <category term="php" scheme="https://nhzex.github.io/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows CMD 笔记</title>
+    <link href="https://nhzex.github.io/win-cmd/"/>
+    <id>https://nhzex.github.io/win-cmd/</id>
+    <published>2021-11-01T15:11:09.000Z</published>
+    <updated>2021-11-01T16:58:33.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="设置变量"><a href="#设置变量" class="headerlink" title="设置变量"></a>设置变量</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set PRODUCT_NAME=&quot;hello world&quot;</span><br><span class="line">echo %PRODUCT_NAME%</span><br></pre></td></tr></table></figure><h3 id="长命令的换行"><a href="#长命令的换行" class="headerlink" title="长命令的换行"></a>长命令的换行</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cmake .. -DCMAKE_BUILD_TYPE=Debug ^</span><br><span class="line">         -DCMAKE_TOOLCHAIN_FILE=$&#123;TOOLCHAIN_FILE&#125; ^</span><br><span class="line">         -DBUILD_SHARED_LIBS=ON </span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://blog.dangjiahe.com/2018/05/09/windows%E6%89%B9%E5%A4%84%E7%90%86%E2%80%94%E2%80%94%E5%8F%98%E9%87%8F%EF%BC%8C%E5%91%BD%E4%BB%A4%E6%8D%A2%E8%A1%8C/">https://blog.dangjiahe.com/2018/05/09/windows%E6%89%B9%E5%A4%84%E7%90%86%E2%80%94%E2%80%94%E5%8F%98%E9%87%8F%EF%BC%8C%E5%91%BD%E4%BB%A4%E6%8D%A2%E8%A1%8C/</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;记录&quot;&gt;&lt;a href=&quot;#记录&quot; class=&quot;headerlink&quot; title=&quot;记录&quot;&gt;&lt;/a&gt;记录&lt;/h2&gt;&lt;h3 id=&quot;设置变量&quot;&gt;&lt;a href=&quot;#设置变量&quot; class=&quot;headerlink&quot; title=&quot;设置变量&quot;&gt;&lt;/a&gt;设置变量&lt;/h</summary>
+      
+    
+    
+    
+    <category term="windows" scheme="https://nhzex.github.io/categories/windows/"/>
+    
+    
+    <category term="windows" scheme="https://nhzex.github.io/tags/windows/"/>
+    
+    <category term="cmd" scheme="https://nhzex.github.io/tags/cmd/"/>
+    
+  </entry>
   
   <entry>
     <title>前端资料</title>
@@ -161,9 +276,9 @@
     <link href="https://nhzex.github.io/github-actions/"/>
     <id>https://nhzex.github.io/github-actions/</id>
     <published>2021-10-29T10:50:10.000Z</published>
-    <updated>2021-10-29T10:56:20.000Z</updated>
+    <updated>2021-11-01T16:58:33.000Z</updated>
     
-    <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li><li><a href="https://stackoverflow.com/questions/58465057/trigger-a-github-action-when-another-repository-creates-a-new-release">https://stackoverflow.com/questions/58465057/trigger-a-github-action-when-another-repository-creates-a-new-release</a></li></ul>]]></content>
     
     
       
@@ -374,132 +489,6 @@
       
     <summary type="html">&lt;h2 id=&quot;资料收集&quot;&gt;&lt;a href=&quot;#资料收集&quot; class=&quot;headerlink&quot; title=&quot;资料收集&quot;&gt;&lt;/a&gt;资料收集&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://blog.jetbrains.com/phpstorm/2021/07/php</summary>
-      
-    
-    
-    
-    
-    <category term="php" scheme="https://nhzex.github.io/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Ocr 资料</title>
-    <link href="https://nhzex.github.io/ocr/"/>
-    <id>https://nhzex.github.io/ocr/</id>
-    <published>2021-10-11T16:44:44.000Z</published>
-    <updated>2021-10-11T16:48:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="开源项目"><a href="#开源项目" class="headerlink" title="开源项目"></a>开源项目</h2><h4 id="PaddleOCR-https-github-com-PaddlePaddle-PaddleOCR"><a href="#PaddleOCR-https-github-com-PaddlePaddle-PaddleOCR" class="headerlink" title="PaddleOCR: https://github.com/PaddlePaddle/PaddleOCR"></a>PaddleOCR: <a href="https://github.com/PaddlePaddle/PaddleOCR">https://github.com/PaddlePaddle/PaddleOCR</a></h4><h4 id="TrWebOCR-https-github-com-alisen39-TrWebOCR"><a href="#TrWebOCR-https-github-com-alisen39-TrWebOCR" class="headerlink" title="TrWebOCR: https://github.com/alisen39/TrWebOCR"></a>TrWebOCR: <a href="https://github.com/alisen39/TrWebOCR">https://github.com/alisen39/TrWebOCR</a></h4><ul><li><a href="https://github.com/thiagoalessio/tesseract-ocr-for-php">https://github.com/thiagoalessio/tesseract-ocr-for-php</a></li></ul><h4 id="tesseract-https-github-com-tesseract-ocr-tesseract"><a href="#tesseract-https-github-com-tesseract-ocr-tesseract" class="headerlink" title="tesseract: https://github.com/tesseract-ocr/tesseract"></a>tesseract: <a href="https://github.com/tesseract-ocr/tesseract">https://github.com/tesseract-ocr/tesseract</a></h4><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/87471386">https://zhuanlan.zhihu.com/p/87471386</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;开源项目&quot;&gt;&lt;a href=&quot;#开源项目&quot; class=&quot;headerlink&quot; title=&quot;开源项目&quot;&gt;&lt;/a&gt;开源项目&lt;/h2&gt;&lt;h4 id=&quot;PaddleOCR-https-github-com-PaddlePaddle-PaddleOCR&quot;&gt;&lt;a hre</summary>
-      
-    
-    
-    
-    
-    <category term="ocr" scheme="https://nhzex.github.io/tags/ocr/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>美国州名全称、简称及州府名称中英对照一览表</title>
-    <link href="https://nhzex.github.io/usa-zipcode/"/>
-    <id>https://nhzex.github.io/usa-zipcode/</id>
-    <published>2021-10-11T16:32:11.000Z</published>
-    <updated>2021-10-11T16:44:26.000Z</updated>
-    
-    <content type="html"><![CDATA[<table><thead><tr><th align="center">州名全称</th><th align="center">简称</th><th align="center">中译名</th><th align="center">州府</th><th align="center">中译名</th></tr></thead><tbody><tr><td align="center">Alabama</td><td align="center">AL</td><td align="center">亚拉巴马</td><td align="center">Montgomery</td><td align="center">蒙哥马利</td></tr><tr><td align="center">Alaska</td><td align="center">AK</td><td align="center">AK</td><td align="center">Juneau</td><td align="center">朱诺</td></tr><tr><td align="center">Arizona</td><td align="center">AZ</td><td align="center">亚利桑那</td><td align="center">Phoenix</td><td align="center">菲尼克斯</td></tr><tr><td align="center">Arkansas</td><td align="center">AR</td><td align="center">阿肯色</td><td align="center">Little Rock</td><td align="center">小石城</td></tr><tr><td align="center">California</td><td align="center">CA</td><td align="center">加利福尼亚</td><td align="center">Sacramento</td><td align="center">萨克拉门托</td></tr><tr><td align="center">Colorado</td><td align="center">CO</td><td align="center">科罗拉多</td><td align="center">Denver</td><td align="center">丹佛</td></tr><tr><td align="center">Connecticut</td><td align="center">CT</td><td align="center">康涅狄格</td><td align="center">Hartford</td><td align="center">哈特福德</td></tr><tr><td align="center">Delaware</td><td align="center">DE</td><td align="center">特拉华</td><td align="center">Dover</td><td align="center">多佛</td></tr><tr><td align="center">District of Columbia</td><td align="center">DC</td><td align="center">哥伦比亚特区</td><td align="center"></td><td align="center"></td></tr><tr><td align="center">Florida</td><td align="center">FL</td><td align="center">佛罗里达</td><td align="center">Tallahassee</td><td align="center">塔拉哈西</td></tr><tr><td align="center">Georgia</td><td align="center">GA</td><td align="center">佐治亚</td><td align="center">Atlanta</td><td align="center">亚特兰大</td></tr><tr><td align="center">Hawaii</td><td align="center">HI</td><td align="center">夏威夷</td><td align="center">Honolulu</td><td align="center">火奴鲁鲁</td></tr><tr><td align="center">Idaho</td><td align="center">ID</td><td align="center">爱达荷</td><td align="center">Boise</td><td align="center">博伊西</td></tr><tr><td align="center">Illinois</td><td align="center">IL</td><td align="center">伊利诺斯</td><td align="center">Springfield</td><td align="center">斯普林菲尔德</td></tr><tr><td align="center">Indiana</td><td align="center">IN</td><td align="center">印第安纳</td><td align="center">Indianapolis</td><td align="center">印第安纳波利斯</td></tr><tr><td align="center">Iowa</td><td align="center">IA</td><td align="center">爱荷华</td><td align="center">Des Moines</td><td align="center">得梅因</td></tr><tr><td align="center">Kansas</td><td align="center">KS</td><td align="center">堪萨斯</td><td align="center">Topeka</td><td align="center">托皮卡</td></tr><tr><td align="center">Kentucky</td><td align="center">KY</td><td align="center">肯塔基</td><td align="center">Frankfort</td><td align="center">法兰克福</td></tr><tr><td align="center">Louisiana</td><td align="center">LA</td><td align="center">路易斯安那</td><td align="center">Baton Rouge</td><td align="center">巴吞鲁日</td></tr><tr><td align="center">Maine</td><td align="center">ME</td><td align="center">缅因</td><td align="center">Augusta</td><td align="center">奥古斯塔</td></tr><tr><td align="center">Maryland</td><td align="center">MD</td><td align="center">马里兰</td><td align="center">Annapolis</td><td align="center">安那波利斯</td></tr><tr><td align="center">Massachusetts</td><td align="center">MA</td><td align="center">马萨诸塞</td><td align="center">Boston</td><td align="center">波士顿</td></tr><tr><td align="center">Michigan</td><td align="center">MI</td><td align="center">密歇根</td><td align="center">Lansing</td><td align="center">兰辛</td></tr><tr><td align="center">Minnesota</td><td align="center">MN</td><td align="center">明尼苏达</td><td align="center">St. Paul</td><td align="center">圣保罗</td></tr><tr><td align="center">Mississippi</td><td align="center">MS</td><td align="center">密西西比</td><td align="center">Jackson</td><td align="center">杰克逊</td></tr><tr><td align="center">Missouri</td><td align="center">MO</td><td align="center">密苏里</td><td align="center">Jefferson City</td><td align="center">杰斐逊城</td></tr><tr><td align="center">Montana</td><td align="center">MT</td><td align="center">蒙大拿</td><td align="center">Helena</td><td align="center">海伦娜</td></tr><tr><td align="center">Nebraska</td><td align="center">NE</td><td align="center">内布拉斯加</td><td align="center">Lincoln</td><td align="center">林肯</td></tr><tr><td align="center">Nevada</td><td align="center">NV</td><td align="center">内华达</td><td align="center">Carson City</td><td align="center">卡森城</td></tr><tr><td align="center">New Hampshire</td><td align="center">NH</td><td align="center">新罕布什尔</td><td align="center">Concord</td><td align="center">康科德</td></tr><tr><td align="center">New Jeresy</td><td align="center">NJ</td><td align="center">新泽西</td><td align="center">Trenton</td><td align="center">特伦顿</td></tr><tr><td align="center">New Mexico</td><td align="center">NM</td><td align="center">新墨西哥</td><td align="center">Santa Fe</td><td align="center">圣菲</td></tr><tr><td align="center">New York</td><td align="center">NY</td><td align="center">纽约</td><td align="center">Albany</td><td align="center">奥尔巴尼</td></tr><tr><td align="center">North Carolina</td><td align="center">NC</td><td align="center">北卡罗来纳</td><td align="center">Raleigh</td><td align="center">罗利</td></tr><tr><td align="center">North Dakota</td><td align="center">ND</td><td align="center">北达科他</td><td align="center">Bismarck</td><td align="center">俾斯麦</td></tr><tr><td align="center">Ohio</td><td align="center">OH</td><td align="center">俄亥俄</td><td align="center">Columbus</td><td align="center">哥伦布</td></tr><tr><td align="center">Oklahoma</td><td align="center">OK</td><td align="center">俄克拉荷马</td><td align="center">Oklahoma City</td><td align="center">俄克拉荷马城</td></tr><tr><td align="center">Oregon</td><td align="center">OR</td><td align="center">俄勒冈</td><td align="center">Salem</td><td align="center">塞勒姆</td></tr><tr><td align="center">Pennsylvania</td><td align="center">PA</td><td align="center">宾夕法尼亚</td><td align="center">Harrisburg</td><td align="center">哈里斯堡</td></tr><tr><td align="center">Rhode Island</td><td align="center">RI</td><td align="center">罗得岛</td><td align="center">Providence</td><td align="center">普罗维登斯</td></tr><tr><td align="center">SouthCarolina</td><td align="center">SC</td><td align="center">南卡罗来纳</td><td align="center">Columbia</td><td align="center">哥伦比亚</td></tr><tr><td align="center">South Dakota</td><td align="center">SD</td><td align="center">南达科他</td><td align="center">Pierre</td><td align="center">皮尔</td></tr><tr><td align="center">Tennessee</td><td align="center">TN</td><td align="center">田纳西</td><td align="center">Nashville</td><td align="center">纳什维尔</td></tr><tr><td align="center">Texas</td><td align="center">TX</td><td align="center">得克萨斯</td><td align="center">Austin</td><td align="center">奥斯汀</td></tr><tr><td align="center">Utah</td><td align="center">UT</td><td align="center">犹他</td><td align="center">Salt Lake City</td><td align="center">盐湖城</td></tr><tr><td align="center">Vermont</td><td align="center">VT</td><td align="center">佛蒙特</td><td align="center">Montpelier</td><td align="center">蒙比利埃</td></tr><tr><td align="center">Virginia</td><td align="center">VA</td><td align="center">弗吉尼亚</td><td align="center">Richmond</td><td align="center">里士满</td></tr><tr><td align="center">Washington</td><td align="center">WA</td><td align="center">华盛顿</td><td align="center">Olympia</td><td align="center">奥林匹亚</td></tr><tr><td align="center">West Virginia</td><td align="center">WV</td><td align="center">西弗吉尼亚</td><td align="center">Charleston</td><td align="center">查尔斯顿</td></tr><tr><td align="center">Wisconsin</td><td align="center">WI</td><td align="center">威斯康星</td><td align="center">Madison</td><td align="center">麦迪逊</td></tr><tr><td align="center">Wyoming</td><td align="center">WY</td><td align="center">怀俄明</td><td align="center">Cheyenne</td><td align="center">夏延</td></tr></tbody></table><p>参考：<a href="http://www.library.sh.cn/tsgc/lxzn/%E7%95%99%E5%AD%A6%E6%8C%87%E5%8D%97(%E7%BE%8E).files/zhou.table.htm">http://www.library.sh.cn/tsgc/lxzn/%E7%95%99%E5%AD%A6%E6%8C%87%E5%8D%97(%E7%BE%8E).files/zhou.table.htm</a>  </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th align=&quot;center&quot;&gt;州名全称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;简称&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;中译名&lt;/th&gt;
-&lt;th align=&quot;center&quot;&gt;州府&lt;/th&gt;
-&lt;th alig</summary>
-      
-    
-    
-    
-    
-    <category term="收集" scheme="https://nhzex.github.io/tags/%E6%94%B6%E9%9B%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Linux CLI 工具索引</title>
-    <link href="https://nhzex.github.io/linux-qrcode-and-barcode/"/>
-    <id>https://nhzex.github.io/linux-qrcode-and-barcode/</id>
-    <published>2021-10-11T15:50:47.000Z</published>
-    <updated>2021-10-11T15:57:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="ZBar"><a href="#ZBar" class="headerlink" title="ZBar"></a><a href="http://zbar.sourceforge.net/">ZBar</a></h2><h3 id="描述"><a href="#描述" class="headerlink" title="描述"></a>描述</h3><p>二维码与条形码识别工具</p><h3 id="执行文件"><a href="#执行文件" class="headerlink" title="执行文件"></a>执行文件</h3><ul><li>zbarimg</li><li>zbarcam</li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;ZBar&quot;&gt;&lt;a href=&quot;#ZBar&quot; class=&quot;headerlink&quot; title=&quot;ZBar&quot;&gt;&lt;/a&gt;&lt;a href=&quot;http://zbar.sourceforge.net/&quot;&gt;ZBar&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;描述&quot;&gt;&lt;a href=&quot;#</summary>
-      
-    
-    
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/tags/linux/"/>
-    
-    <category term="tool" scheme="https://nhzex.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux pdf cli tool</title>
-    <link href="https://nhzex.github.io/linux-pdf/"/>
-    <id>https://nhzex.github.io/linux-pdf/</id>
-    <published>2021-10-11T15:38:00.000Z</published>
-    <updated>2021-10-11T16:31:47.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="QPDF"><a href="#QPDF" class="headerlink" title="QPDF"></a>QPDF</h2><p>提供一系列<code>pdf</code>的操作方法  </p><ol><li>按页切合<code>pdf</code></li></ol><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install qpdf</span><br></pre></td></tr></table></figure><h2 id="poppler-utils"><a href="#poppler-utils" class="headerlink" title="poppler-utils"></a>poppler-utils</h2><p>提供一系列<code>pdf</code>的操作工具</p><h3 id="安装-1"><a href="#安装-1" class="headerlink" title="安装"></a>安装</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># On Debian/Ubuntu &amp; Mint</span></span><br><span class="line">sudo apt install poppler-utils</span><br><span class="line"><span class="comment"># On RHEL/CentOS &amp; Fedora</span></span><br><span class="line">sudo dnf install poppler-utils</span><br><span class="line"><span class="comment"># On OpenSUSE</span></span><br><span class="line">sudo zypper install poppler-tools</span><br><span class="line"><span class="comment"># On Arch Linux</span></span><br><span class="line">sudo pacman -S poppler</span><br></pre></td></tr></table></figure><h3 id="工具"><a href="#工具" class="headerlink" title="工具"></a>工具</h3><ul><li>获取详细信息：<code>pdfinfo</code></li><li>转换为图片：<code>pdftoppm</code></li><li>转换为HTML：<code>pdftohtml</code></li><li>提取文字资源：<code>pdftotext</code></li><li>提取图片资源：<code>pdfimages</code></li></ul><h3 id="开发"><a href="#开发" class="headerlink" title="开发"></a>开发</h3><ul><li><a href="https://github.com/Lukasss93/pdf-to-ppm">https://github.com/Lukasss93/pdf-to-ppm</a></li></ul><h3 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h3><ul><li><a href="https://www.mankier.com/1/pdftoppm">https://www.mankier.com/1/pdftoppm</a></li><li><a href="https://askubuntu.com/a/50180">https://askubuntu.com/a/50180</a></li><li><a href="https://ubunlog.com/zh-CN/pdftoppm-%E5%B0%86-pdf-%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%9B%BE%E5%83%8F/">https://ubunlog.com/zh-CN/pdftoppm-%E5%B0%86-pdf-%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%9B%BE%E5%83%8F/</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;QPDF&quot;&gt;&lt;a href=&quot;#QPDF&quot; class=&quot;headerlink&quot; title=&quot;QPDF&quot;&gt;&lt;/a&gt;QPDF&lt;/h2&gt;&lt;p&gt;提供一系列&lt;code&gt;pdf&lt;/code&gt;的操作方法  &lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;按页切合&lt;code&gt;pdf&lt;/code&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/tags/linux/"/>
-    
-    <category term="pdf" scheme="https://nhzex.github.io/tags/pdf/"/>
-    
-    <category term="tool" scheme="https://nhzex.github.io/tags/tool/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>php 内置异常记录</title>
-    <link href="https://nhzex.github.io/php-exception/"/>
-    <id>https://nhzex.github.io/php-exception/</id>
-    <published>2021-10-11T06:35:04.000Z</published>
-    <updated>2021-10-11T06:42:48.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="文档索引"><a href="#文档索引" class="headerlink" title="文档索引"></a>文档索引</h2><ul><li>[预定义异常] <a href="https://www.php.net/manual/zh/reserved.exceptions.php">https://www.php.net/manual/zh/reserved.exceptions.php</a></li><li>[SPL异常] <a href="https://www.php.net/manual/zh/spl.exceptions.php">https://www.php.net/manual/zh/spl.exceptions.php</a></li></ul><hr><h2 id="部分明细"><a href="#部分明细" class="headerlink" title="部分明细"></a>部分明细</h2><ul><li><p><a href="http://php.net/manual/zh/class.errorexception.php#class.errorexception">ErrorException</a>  错误异常。</p></li><li><p><a href="http://php.net/manual/zh/class.logicexception.php">LogicException</a>  表示程序逻辑错误的异常。这种异常应直接导致代码中的修复。</p><ul><li><a href="http://php.net/manual/zh/class.badfunctioncallexception.php">BadFunctionCallException</a>  如果回调引用未定义的函数或缺少某些参数，则抛出异常。</li><li><a href="http://php.net/manual/zh/class.badmethodcallexception.php">BadMethodCallException</a>  当一个回调方法是一个未定义的方法或缺失一些参数时会抛出该异常。</li><li><a href="http://php.net/manual/zh/class.domainexception.php">DomainException</a>  如果值不符合定义的有效数据域，则抛出异常。</li><li><a href="http://php.net/manual/zh/class.invalidargumentexception.php">InvalidArgumentException</a>  如果参数不是预期类型，则抛出异常。</li><li><a href="http://php.net/manual/zh/class.lengthexception.php">LengthException</a>  如果长度无效，则抛出异常。</li><li><a href="http://php.net/manual/zh/class.outofrangeexception.php">OutOfRangeException</a>  请求非法索引时抛出异常。这表示应在编译时检测到的错误。</li></ul></li><li><p><a href="http://php.net/manual/zh/class.runtimeexception.php">RuntimeException</a>  如果发生只能在运行时发现的错误，则抛出异常。</p><ul><li><a href="http://php.net/manual/zh/class.outofboundsexception.php">OutOfBoundsException</a>  如果值不是有效键，则抛出异常。这表示在编译时无法检测到的错误。</li><li><a href="http://php.net/manual/zh/class.overflowexception.php">OverflowException</a>  将元素添加到完整容器时抛出异常。</li><li><a href="http://php.net/manual/zh/class.rangeexception.php">RangeException</a>  抛出异常以指示程序执行期间的范围错误。通常这意味着除了/溢出之外还有一个算术错误。</li><li><a href="http://php.net/manual/zh/class.underflowexception.php">UnderflowException</a>  在空容器上执行无效操作（例如删除元素）时抛出异常。</li><li><a href="http://php.net/manual/zh/class.unexpectedvalueexception.php">UnexpectedValueException</a>  如果值与一组值不匹配，则抛出异常。通常，当函数调用另一个函数并且期望返回值是某个类型或值（不包括算术或缓冲区相关的错误）时，会发生这种情况。</li></ul></li></ul><hr><h2 id="SPL-Exceptions-Class-Tree"><a href="#SPL-Exceptions-Class-Tree" class="headerlink" title="SPL Exceptions Class Tree"></a><a href="http://php.net/manual/zh/spl.exceptions.php#spl.exceptions.tree">SPL Exceptions Class Tree</a></h2><ul><li><a href="http://php.net/manual/zh/class.logicexception.php">LogicException</a> (extends <a href="http://php.net/manual/zh/class.exception.php">Exception</a>)<ul><li><a href="http://php.net/manual/zh/class.badfunctioncallexception.php">BadFunctionCallException</a><ul><li>  <a href="http://php.net/manual/zh/class.badmethodcallexception.php">BadMethodCallException</a></li></ul></li><li>  <a href="http://php.net/manual/zh/class.domainexception.php">DomainException</a></li><li>  <a href="http://php.net/manual/zh/class.invalidargumentexception.php">InvalidArgumentException</a></li><li>  <a href="http://php.net/manual/zh/class.lengthexception.php">LengthException</a></li><li>  <a href="http://php.net/manual/zh/class.outofrangeexception.php">OutOfRangeException</a></li></ul></li><li><a href="http://php.net/manual/zh/class.runtimeexception.php">RuntimeException</a> (extends <a href="http://php.net/manual/zh/class.exception.php">Exception</a>)<ul><li>  <a href="http://php.net/manual/zh/class.outofboundsexception.php">OutOfBoundsException</a></li><li>  <a href="http://php.net/manual/zh/class.overflowexception.php">OverflowException</a></li><li>  <a href="http://php.net/manual/zh/class.rangeexception.php">RangeException</a></li><li>  <a href="http://php.net/manual/zh/class.underflowexception.php">UnderflowException</a></li><li>  <a href="http://php.net/manual/zh/class.unexpectedvalueexception.php">UnexpectedValueException</a></li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;文档索引&quot;&gt;&lt;a href=&quot;#文档索引&quot; class=&quot;headerlink&quot; title=&quot;文档索引&quot;&gt;&lt;/a&gt;文档索引&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;[预定义异常] &lt;a href=&quot;https://www.php.net/manual/zh/reserved.</summary>
       
     
     

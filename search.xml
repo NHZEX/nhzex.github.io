@@ -4,6 +4,109 @@
   
     
     <entry>
+      <title>Openssl Aes</title>
+      <link href="//openssl-aes/"/>
+      <url>//openssl-aes/</url>
+      
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，再重试一遍" data-whm="文章不能被校验，不过您还是能看看解密后的内容">  <script id="hbeData" type="hbeData" data-hmacdigest="c597c10895a28148c42b812fd87db72eba6a842f1459301ce5bf651077c1c77f">66c9cb7f85419e75f8959c1d6312a359b6c5229434e5f4f6b9af2ce13567e8c0ef084eba19d5d4fe0151dd255626830865599ac7b11a71274b0a2b38223428b59cd8097686e0200092dc6417fdf28b546e4dbfd0606132c2bda0993e155c93556d632c4e5cbe50eb7dedf968d0add779d8ddabdf1f5d5b23b82883eca7d3e94565ab1f4fe9ffac30aba16c1bd4f977987caa4153ec4dc8a3f3f8af698b9ea90946dac6e4b5eaf024c48f942552e2e7f772b0f69b45903ac477d5538b9cd9234bc1dbedf4b4f48f84a74f078a0dc701037535f3b8ec93e92cec22d0fb3a286c657328ad6b67c409c4f0e091617e2c343195ccf132714bf0df9cf2853af0389eab919096b8cfe8cb2ac6b7b2bcdde7450cfc45c6f5f360257a595f99009519bec5321833af65d2caea7a5190ff5cb59f23bb04ea965b85cbceae17256d8ccdef370fe2eef190dbf85528583daa7b5d9dc92e50b9f0e6f100336aa90d8ac11b9e17c8e6706fa68c61ee21b638f97dedaf0e6aa41184b20d2135a49f7dfeed39f0963d8993a66a3d5904b8d122d64e10fcd631757e4f2d0d4899ccacfb443ff86b2b82558671dc43b6e65eedbd477d0caed683b082c0aed10fcb22d6d65d8177f89c4407bf5488c60964f4de705f078728762b334eff4f8d1c014a51aae4a7bf35b390b50dda56d375509009d7d3412001bd5b5ab55dbd25595f1b5194df49a073df82fbd322b7fd6f335cb4f8627fbd3c89e4c2767a7a7a82b7069db6e90ad903f4</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">需要输入密码！</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> secret </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>RabbitMQ</title>
+      <link href="//rabbit_mq/"/>
+      <url>//rabbit_mq/</url>
+      
+        <content type="html"><![CDATA[<h2 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h2><ul><li><a href="https://www.jianshu.com/p/dae5bbed39b1">https://www.jianshu.com/p/dae5bbed39b1</a></li><li><a href="https://www.rabbitmq.com/install-windows.html#managing">https://www.rabbitmq.com/install-windows.html#managing</a></li><li><a href="https://hub.docker.com/_/rabbitmq">https://hub.docker.com/_/rabbitmq</a></li><li><a href="https://www.cnblogs.com/starof/p/4173413.html">https://www.cnblogs.com/starof/p/4173413.html</a></li><li><a href="https://segmentfault.com/a/1190000022670544">https://segmentfault.com/a/1190000022670544</a></li><li><a href="https://stackoverflow.com/questions/53374144/rabbitmq-ack-timeout">https://stackoverflow.com/questions/53374144/rabbitmq-ack-timeout</a></li><li><a href="https://www.rabbitmq.com/confirms.html">https://www.rabbitmq.com/confirms.html</a></li><li><a href="https://github.com/imiphp/imi-amqp">https://github.com/imiphp/imi-amqp</a></li><li><a href="https://www.zhihu.com/question/54152397">https://www.zhihu.com/question/54152397</a></li><li><a href="https://segmentfault.com/a/1190000019123489">https://segmentfault.com/a/1190000019123489</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mysql 资料</title>
+      <link href="//mysql/"/>
+      <url>//mysql/</url>
+      
+        <content type="html"><![CDATA[<h3 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h3><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>php</title>
+      <link href="//php/"/>
+      <url>//php/</url>
+      
+        <content type="html"><![CDATA[<h2 id="数据结构"><a href="#数据结构" class="headerlink" title="数据结构"></a>数据结构</h2><ul><li><a href="https://github.com/php-ds/ext-ds">ds</a></li><li><a href="https://github.com/TysonAndre/pecl-teds">Teds</a> </li></ul><h2 id="通用库"><a href="#通用库" class="headerlink" title="通用库"></a>通用库</h2><ul><li><a href="https://github.com/whsv26/functional">Functional PHP</a></li><li><a href="https://github.com/loophp/collection">PHP Collection</a></li><li><a href="https://github.com/azjezz/psl">Psl - PHP Standard Library</a></li></ul><h2 id="未归类"><a href="#未归类" class="headerlink" title="未归类"></a>未归类</h2><ul><li><a href="https://github.com/ryangjchandler/using">using</a></li></ul><h2 id="计算"><a href="#计算" class="headerlink" title="计算"></a>计算</h2><ul><li><a href="https://github.com/brick/math">math</a></li></ul><h2 id="Workflow"><a href="#Workflow" class="headerlink" title="Workflow"></a>Workflow</h2><ul><li><a href="https://github.com/symfony/workflow">symfony/workflow</a><ul><li><a href="https://symfony.com/doc/current/workflow.html">doc</a></li><li><a href="https://www.graphviz.org/theory/">graphviz</a></li></ul></li><li><a href="https://github.com/phpmentors-jp/workflower">workflower</a></li></ul><h4 id="资料"><a href="#资料" class="headerlink" title="资料"></a>资料</h4><ul><li><a href="https://www.reddit.com/r/PHP/comments/pwg8g6/in_this_article_i_explain_the_symfony_workflow/">https://www.reddit.com/r/PHP/comments/pwg8g6/in_this_article_i_explain_the_symfony_workflow/</a></li><li><a href="https://woutercarabain.com/webdevelopment/the-symfony-workflow-component-explained/">https://woutercarabain.com/webdevelopment/the-symfony-workflow-component-explained/</a></li></ul><h2 id="数据转换"><a href="#数据转换" class="headerlink" title="数据转换"></a>数据转换</h2><ul><li><a href="https://github.com/pimlie/php-unit-conversion">php-unit-conversion</a></li><li><a href="https://github.com/jordanbrauer/unit-converter">unit-converter</a></li><li><a href="https://packagist.org/packages/crisu83/php-conversion">php-conversion</a></li><li><a href="https://packagist.org/packages/php-units-of-measure/php-units-of-measure">php-units-of-measure</a></li></ul><h2 id="地址格式化"><a href="#地址格式化" class="headerlink" title="地址格式化"></a>地址格式化</h2><ul><li><a href="https://github.com/dasprid/localized-address-format">localized-address-format</a></li><li><a href="https://github.com/joaocarmo/i18n-postal-address">i18n-postal-address</a></li></ul><h4 id="资料-1"><a href="#资料-1" class="headerlink" title="资料"></a>资料</h4><ul><li><a href="https://stackoverflow.com/questions/11160192/how-to-parse-freeform-street-postal-address-out-of-text-and-into-components">https://stackoverflow.com/questions/11160192/how-to-parse-freeform-street-postal-address-out-of-text-and-into-components</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> php </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> php </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows CMD 笔记</title>
+      <link href="//win-cmd/"/>
+      <url>//win-cmd/</url>
+      
+        <content type="html"><![CDATA[<h2 id="记录"><a href="#记录" class="headerlink" title="记录"></a>记录</h2><h3 id="设置变量"><a href="#设置变量" class="headerlink" title="设置变量"></a>设置变量</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">set PRODUCT_NAME=&quot;hello world&quot;</span><br><span class="line">echo %PRODUCT_NAME%</span><br></pre></td></tr></table></figure><h3 id="长命令的换行"><a href="#长命令的换行" class="headerlink" title="长命令的换行"></a>长命令的换行</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cmake .. -DCMAKE_BUILD_TYPE=Debug ^</span><br><span class="line">         -DCMAKE_TOOLCHAIN_FILE=$&#123;TOOLCHAIN_FILE&#125; ^</span><br><span class="line">         -DBUILD_SHARED_LIBS=ON </span><br></pre></td></tr></table></figure><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://blog.dangjiahe.com/2018/05/09/windows%E6%89%B9%E5%A4%84%E7%90%86%E2%80%94%E2%80%94%E5%8F%98%E9%87%8F%EF%BC%8C%E5%91%BD%E4%BB%A4%E6%8D%A2%E8%A1%8C/">https://blog.dangjiahe.com/2018/05/09/windows%E6%89%B9%E5%A4%84%E7%90%86%E2%80%94%E2%80%94%E5%8F%98%E9%87%8F%EF%BC%8C%E5%91%BD%E4%BB%A4%E6%8D%A2%E8%A1%8C/</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> windows </tag>
+            
+            <tag> cmd </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前端资料</title>
       <link href="//css-layout/"/>
       <url>//css-layout/</url>
@@ -154,7 +257,7 @@
       <link href="//github-actions/"/>
       <url>//github-actions/</url>
       
-        <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<p>资料</p><ul><li><a href="https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context">https://docs.github.com/cn/actions/learn-github-actions/contexts#github-context</a></li><li><a href="https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images">https://docs.github.com/cn/actions/publishing-packages/publishing-docker-images</a></li><li><a href="https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry">https://docs.github.com/cn/packages/working-with-a-github-packages-registry/working-with-the-container-registry</a></li><li><a href="https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory">https://stackoverflow.com/questions/66630437/composite-github-action-automatically-cd-into-actions-directory</a></li><li><a href="https://github.com/actions/runner/issues/646">Next Steps for Fully Functioning Composite Actions</a></li><li><a href="https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml">https://github.com/ethanchewy/testing-composite-errors/blob/master/action.yml</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions">https://docs.github.com/cn/actions/creating-actions/metadata-syntax-for-github-actions#outputs-for-composite-run-steps-actions</a></li><li><a href="https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action">https://docs.github.com/cn/actions/creating-actions/creating-a-composite-action</a></li><li><a href="https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps">https://stackoverflow.com/questions/65473359/github-action-unable-to-add-if-condition-in-steps</a></li><li><a href="https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml">https://github.com/nektos/act/blob/master/.github/actions/composite/action.yml</a></li><li><a href="https://github.com/nektos/act/issues/783">https://github.com/nektos/act/issues/783</a></li><li><a href="https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l">https://dev.to/n3wt0n/github-composite-actions-nest-actions-within-actions-3e5l</a></li><li><a href="https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185">https://stackoverflow.com/questions/67368724/share-same-steps-for-different-github-actions-jobs/67391185#67391185</a></li><li><a href="https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851">https://github.community/t/reusing-sharing-inheriting-steps-between-jobs-declarations/16851</a></li><li><a href="https://stackoverflow.com/questions/58465057/trigger-a-github-action-when-another-repository-creates-a-new-release">https://stackoverflow.com/questions/58465057/trigger-a-github-action-when-another-repository-creates-a-new-release</a></li></ul>]]></content>
       
       
       
@@ -570,7 +673,7 @@
       <link href="/2019/12/08/wsl.html"/>
       <url>/2019/12/08/wsl.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://patrickwu.space/wslconf/">Scripting with WSL interoperability: Tips &amp; Tricks</a></li></ul>]]></content>
       
       
       <categories>

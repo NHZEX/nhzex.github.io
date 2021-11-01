@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://nhzex.github.io/openssl-aes/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/mysql/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/rabbit_mq/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/2019/12/08/wsl.html</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/github-actions/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/php/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/win-cmd/</loc>
+    
+    <lastmod>2021-11-01</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://nhzex.github.io/css-layout/</loc>
     
     <lastmod>2021-10-30</lastmod>
@@ -38,13 +87,6 @@
   
   <url>
     <loc>https://nhzex.github.io/mysql-data-dir/</loc>
-    
-    <lastmod>2021-10-29</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://nhzex.github.io/github-actions/</loc>
     
     <lastmod>2021-10-29</lastmod>
     
@@ -184,13 +226,6 @@
   </url>
   
   <url>
-    <loc>https://nhzex.github.io/2019/12/08/wsl.html</loc>
-    
-    <lastmod>2021-09-16</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://nhzex.github.io/2020/01/01/ubuntu-vnc-xfce4.html</loc>
     
     <lastmod>2021-09-16</lastmod>
@@ -235,7 +270,7 @@
 
   <url>
     <loc>https://nhzex.github.io/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -243,196 +278,203 @@
   
   <url>
     <loc>https://nhzex.github.io/tags/helloworld/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/git/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/ssh/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/error/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/hexo/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/openssl/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/wsl/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/windows/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/ubuntu/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/nginx/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/url/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/apt/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/proxy/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/linux/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/pdf/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/tool/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/php/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/mysql/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/ocr/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/%E6%94%B6%E9%9B%86/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/network/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/string/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/github/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/systemd/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/sql/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/secret/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/html/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/tags/css/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/tags/cmd/</loc>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -441,56 +483,70 @@
   
   <url>
     <loc>https://nhzex.github.io/categories/test/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/git/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/hexo/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/openssl/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/wsl/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/linux/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/mysql/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://nhzex.github.io/categories/%E5%BE%85%E6%95%B4%E7%90%86/</loc>
-    <lastmod>2021-10-30</lastmod>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/categories/php/</loc>
+    <lastmod>2021-11-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://nhzex.github.io/categories/windows/</loc>
+    <lastmod>2021-11-01</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
