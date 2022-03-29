@@ -4,6 +4,85 @@
   
     
     <entry>
+      <title>collect</title>
+      <link href="//collect/"/>
+      <url>//collect/</url>
+      
+        <content type="html"><![CDATA[<ul><li><a href="https://www.ranks.nl/stopwords">停用词表</a></li><li><a href="https://www.w3schools.com/css/css_tooltip.asp">CSS Tooltip</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>libs</title>
+      <link href="//libs-awesome/"/>
+      <url>//libs-awesome/</url>
+      
+        <content type="html"><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h3 id="操作引导"><a href="#操作引导" class="headerlink" title="操作引导"></a>操作引导</h3><ul><li><a href="https://github.com/usablica/intro.js">https://github.com/usablica/intro.js</a></li><li><a href="https://github.com/shipshapecode/shepherd">https://github.com/shipshapecode/shepherd</a></li></ul><h3 id="VUE-UI"><a href="#VUE-UI" class="headerlink" title="VUE UI"></a>VUE UI</h3><ul><li><a href="https://vuetifyjs.com/zh-Hans">https://vuetifyjs.com/zh-Hans</a></li><li><a href="https://quasar.dev/start/pick-quasar-flavour">https://quasar.dev/start/pick-quasar-flavour</a></li></ul><h3 id="icon"><a href="#icon" class="headerlink" title="icon"></a>icon</h3><ul><li><a href="https://fontawesome.com/v5/search">https://fontawesome.com/v5/search</a></li></ul><h1 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h1><h3 id="词法分析与处理"><a href="#词法分析与处理" class="headerlink" title="词法分析与处理"></a>词法分析与处理</h3><ul><li><a href="https://packagist.org/packages/linguistic/ngramextractor">linguistic/ngramextractor</a></li><li><a href="https://packagist.org/packages/juanantoniodelgado/stopwords">juanantoniodelgado/stopwords</a></li><li><a href="https://packagist.org/packages/wamania/php-stemmer">wamania/php-stemmer</a></li></ul><h3 id="PDF"><a href="#PDF" class="headerlink" title="PDF"></a>PDF</h3><ul><li><a href="https://github.com/mpdf/mpdf">mpdf</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vue 使用问题记录</title>
+      <link href="//vue-issue/"/>
+      <url>//vue-issue/</url>
+      
+        <content type="html"><![CDATA[<h2 id="vue-template-使用新语法问题"><a href="#vue-template-使用新语法问题" class="headerlink" title="vue template 使用新语法问题"></a>vue template 使用新语法问题</h2><ul><li><a href="https://github.com/vuejs/vue/issues/4638">safe navigation operator (?.) and null property paths</a></li><li><a href="https://github.com/vuejs/vue/issues/11088">Optional chaining in templates does not seem to work</a></li><li><a href="https://github.com/webpack/webpack/issues/10227">Unexpected token error at code with optional chaining when using Typescript</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Html、Css 布局相关错误记录</title>
+      <link href="//html-layout-and-css/"/>
+      <url>//html-layout-and-css/</url>
+      
+        <content type="html"><![CDATA[<h2 id="flex-min-height-0问题记录"><a href="#flex-min-height-0问题记录" class="headerlink" title="flex min-height: 0问题记录"></a><code>flex min-height: 0</code>问题记录</h2><ul><li><a href="https://fantasai.inkedblade.net/style/discuss/flexbox-min-size/">Flexbox Implied Minimum Size</a></li><li><a href="https://stackoverflow.com/questions/42130384/why-should-i-specify-height-0-even-if-i-specified-flex-basis-0-in-css3-flexbox">Why should I specify height: 0 even if I specified flex-basis: 0 in CSS3 flexbox?</a></li><li><a href="https://moduscreate.com/blog/how-to-fix-overflow-issues-in-css-flex-layouts/">How to Fix Overflow Issues in CSS Flex Layouts</a></li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mysql DDL</title>
+      <link href="//mysql-ddl/"/>
+      <url>//mysql-ddl/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Mysql-8-0-快速-DDL"><a href="#Mysql-8-0-快速-DDL" class="headerlink" title="Mysql 8.0 快速 DDL"></a>Mysql 8.0 快速 DDL</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> tabel1 <span class="keyword">add</span> <span class="keyword">column</span> new_id <span class="type">int</span> UNSIGNED <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> mysql </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> mysql </tag>
+            
+            <tag> db </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Openssl Aes</title>
       <link href="//openssl-aes/"/>
       <url>//openssl-aes/</url>
@@ -40,7 +119,7 @@
       <link href="//mysql/"/>
       <url>//mysql/</url>
       
-        <content type="html"><![CDATA[<h3 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h3><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h2><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul><h2 id="多行结果以逗号合并为一行"><a href="#多行结果以逗号合并为一行" class="headerlink" title="多行结果以逗号合并为一行"></a>多行结果以逗号合并为一行</h2><p>使用函数<code>GROUP_CONCAT</code></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> a.order_id,GROUP_CONCAT( goods_name SEPARATOR <span class="string">&#x27;,&#x27;</span> ) <span class="keyword">AS</span> goods_name </span><br><span class="line"><span class="keyword">FROM</span> A <span class="keyword">AS</span> a</span><br><span class="line"><span class="keyword">LEFT</span> <span class="keyword">JOIN</span> B <span class="keyword">AS</span> c <span class="keyword">ON</span> a.order_id <span class="operator">=</span> c.order_id</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> a.order_id</span><br></pre></td></tr></table></figure><ul><li><a href="https://segmentfault.com/a/1190000039834923">Mysql 将多行结果以逗号合并为一行</a></li></ul>]]></content>
       
       
       

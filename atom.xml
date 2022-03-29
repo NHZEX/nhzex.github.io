@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2021-11-01T17:11:30.000Z</updated>
+  <updated>2022-03-29T02:33:14.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -15,6 +15,114 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>collect</title>
+    <link href="https://nhzex.github.io/collect/"/>
+    <id>https://nhzex.github.io/collect/</id>
+    <published>2022-03-29T02:22:03.000Z</published>
+    <updated>2022-03-29T02:33:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li><a href="https://www.ranks.nl/stopwords">停用词表</a></li><li><a href="https://www.w3schools.com/css/css_tooltip.asp">CSS Tooltip</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.ranks.nl/stopwords&quot;&gt;停用词表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.w3schools.com/css/css_tooltip.asp&quot;&gt;CSS Tooltip&lt;/a&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>libs</title>
+    <link href="https://nhzex.github.io/libs-awesome/"/>
+    <id>https://nhzex.github.io/libs-awesome/</id>
+    <published>2022-03-29T02:15:15.000Z</published>
+    <updated>2022-03-29T02:33:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="WEB"><a href="#WEB" class="headerlink" title="WEB"></a>WEB</h1><h3 id="操作引导"><a href="#操作引导" class="headerlink" title="操作引导"></a>操作引导</h3><ul><li><a href="https://github.com/usablica/intro.js">https://github.com/usablica/intro.js</a></li><li><a href="https://github.com/shipshapecode/shepherd">https://github.com/shipshapecode/shepherd</a></li></ul><h3 id="VUE-UI"><a href="#VUE-UI" class="headerlink" title="VUE UI"></a>VUE UI</h3><ul><li><a href="https://vuetifyjs.com/zh-Hans">https://vuetifyjs.com/zh-Hans</a></li><li><a href="https://quasar.dev/start/pick-quasar-flavour">https://quasar.dev/start/pick-quasar-flavour</a></li></ul><h3 id="icon"><a href="#icon" class="headerlink" title="icon"></a>icon</h3><ul><li><a href="https://fontawesome.com/v5/search">https://fontawesome.com/v5/search</a></li></ul><h1 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h1><h3 id="词法分析与处理"><a href="#词法分析与处理" class="headerlink" title="词法分析与处理"></a>词法分析与处理</h3><ul><li><a href="https://packagist.org/packages/linguistic/ngramextractor">linguistic/ngramextractor</a></li><li><a href="https://packagist.org/packages/juanantoniodelgado/stopwords">juanantoniodelgado/stopwords</a></li><li><a href="https://packagist.org/packages/wamania/php-stemmer">wamania/php-stemmer</a></li></ul><h3 id="PDF"><a href="#PDF" class="headerlink" title="PDF"></a>PDF</h3><ul><li><a href="https://github.com/mpdf/mpdf">mpdf</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;WEB&quot;&gt;&lt;a href=&quot;#WEB&quot; class=&quot;headerlink&quot; title=&quot;WEB&quot;&gt;&lt;/a&gt;WEB&lt;/h1&gt;&lt;h3 id=&quot;操作引导&quot;&gt;&lt;a href=&quot;#操作引导&quot; class=&quot;headerlink&quot; title=&quot;操作引导&quot;&gt;&lt;/a&gt;操作引</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vue 使用问题记录</title>
+    <link href="https://nhzex.github.io/vue-issue/"/>
+    <id>https://nhzex.github.io/vue-issue/</id>
+    <published>2022-03-17T08:26:49.000Z</published>
+    <updated>2022-03-17T08:32:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="vue-template-使用新语法问题"><a href="#vue-template-使用新语法问题" class="headerlink" title="vue template 使用新语法问题"></a>vue template 使用新语法问题</h2><ul><li><a href="https://github.com/vuejs/vue/issues/4638">safe navigation operator (?.) and null property paths</a></li><li><a href="https://github.com/vuejs/vue/issues/11088">Optional chaining in templates does not seem to work</a></li><li><a href="https://github.com/webpack/webpack/issues/10227">Unexpected token error at code with optional chaining when using Typescript</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;vue-template-使用新语法问题&quot;&gt;&lt;a href=&quot;#vue-template-使用新语法问题&quot; class=&quot;headerlink&quot; title=&quot;vue template 使用新语法问题&quot;&gt;&lt;/a&gt;vue template 使用新语法问题&lt;/h2&gt;&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Html、Css 布局相关错误记录</title>
+    <link href="https://nhzex.github.io/html-layout-and-css/"/>
+    <id>https://nhzex.github.io/html-layout-and-css/</id>
+    <published>2022-03-17T08:22:54.000Z</published>
+    <updated>2022-03-17T08:26:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="flex-min-height-0问题记录"><a href="#flex-min-height-0问题记录" class="headerlink" title="flex min-height: 0问题记录"></a><code>flex min-height: 0</code>问题记录</h2><ul><li><a href="https://fantasai.inkedblade.net/style/discuss/flexbox-min-size/">Flexbox Implied Minimum Size</a></li><li><a href="https://stackoverflow.com/questions/42130384/why-should-i-specify-height-0-even-if-i-specified-flex-basis-0-in-css3-flexbox">Why should I specify height: 0 even if I specified flex-basis: 0 in CSS3 flexbox?</a></li><li><a href="https://moduscreate.com/blog/how-to-fix-overflow-issues-in-css-flex-layouts/">How to Fix Overflow Issues in CSS Flex Layouts</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;flex-min-height-0问题记录&quot;&gt;&lt;a href=&quot;#flex-min-height-0问题记录&quot; class=&quot;headerlink&quot; title=&quot;flex min-height: 0问题记录&quot;&gt;&lt;/a&gt;&lt;code&gt;flex min-height:</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mysql DDL</title>
+    <link href="https://nhzex.github.io/mysql-ddl/"/>
+    <id>https://nhzex.github.io/mysql-ddl/</id>
+    <published>2022-03-08T12:41:02.000Z</published>
+    <updated>2022-03-17T08:26:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Mysql-8-0-快速-DDL"><a href="#Mysql-8-0-快速-DDL" class="headerlink" title="Mysql 8.0 快速 DDL"></a>Mysql 8.0 快速 DDL</h2><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">alter</span> <span class="keyword">table</span> tabel1 <span class="keyword">add</span> <span class="keyword">column</span> new_id <span class="type">int</span> UNSIGNED <span class="keyword">NOT</span> <span class="keyword">NULL</span> <span class="keyword">DEFAULT</span> <span class="number">0</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Mysql-8-0-快速-DDL&quot;&gt;&lt;a href=&quot;#Mysql-8-0-快速-DDL&quot; class=&quot;headerlink&quot; title=&quot;Mysql 8.0 快速 DDL&quot;&gt;&lt;/a&gt;Mysql 8.0 快速 DDL&lt;/h2&gt;&lt;figure class=&quot;hi</summary>
+      
+    
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/categories/mysql/"/>
+    
+    
+    <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
+    
+    <category term="db" scheme="https://nhzex.github.io/tags/db/"/>
+    
+  </entry>
   
   <entry>
     <title>Openssl Aes</title>
@@ -61,14 +169,14 @@
     <link href="https://nhzex.github.io/mysql/"/>
     <id>https://nhzex.github.io/mysql/</id>
     <published>2021-11-01T16:58:59.000Z</published>
-    <updated>2021-11-01T17:02:58.000Z</updated>
+    <updated>2022-03-17T08:21:36.000Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h3><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="虚拟列"><a href="#虚拟列" class="headerlink" title="虚拟列"></a>虚拟列</h2><ul><li><a href="https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html">https://www.cnblogs.com/yjmyzz/p/json-type-and-virtual-column-usage-in-mysql-5-7.html</a></li></ul><h2 id="多行结果以逗号合并为一行"><a href="#多行结果以逗号合并为一行" class="headerlink" title="多行结果以逗号合并为一行"></a>多行结果以逗号合并为一行</h2><p>使用函数<code>GROUP_CONCAT</code></p><figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> a.order_id,GROUP_CONCAT( goods_name SEPARATOR <span class="string">&#x27;,&#x27;</span> ) <span class="keyword">AS</span> goods_name </span><br><span class="line"><span class="keyword">FROM</span> A <span class="keyword">AS</span> a</span><br><span class="line"><span class="keyword">LEFT</span> <span class="keyword">JOIN</span> B <span class="keyword">AS</span> c <span class="keyword">ON</span> a.order_id <span class="operator">=</span> c.order_id</span><br><span class="line"><span class="keyword">GROUP</span> <span class="keyword">BY</span> a.order_id</span><br></pre></td></tr></table></figure><ul><li><a href="https://segmentfault.com/a/1190000039834923">Mysql 将多行结果以逗号合并为一行</a></li></ul>]]></content>
     
     
       
       
-    <summary type="html">&lt;h3 id=&quot;虚拟列&quot;&gt;&lt;a href=&quot;#虚拟列&quot; class=&quot;headerlink&quot; title=&quot;虚拟列&quot;&gt;&lt;/a&gt;虚拟列&lt;/h3&gt;&lt;ul&gt;
+    <summary type="html">&lt;h2 id=&quot;虚拟列&quot;&gt;&lt;a href=&quot;#虚拟列&quot; class=&quot;headerlink&quot; title=&quot;虚拟列&quot;&gt;&lt;/a&gt;虚拟列&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.cnblogs.com/yjmyzz/p/json-type-and-virt</summary>
       
     
@@ -372,129 +480,6 @@
     <category term="mysql" scheme="https://nhzex.github.io/tags/mysql/"/>
     
     <category term="sql" scheme="https://nhzex.github.io/tags/sql/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux-systemd</title>
-    <link href="https://nhzex.github.io/linux-systemd/"/>
-    <id>https://nhzex.github.io/linux-systemd/</id>
-    <published>2021-10-29T04:45:40.000Z</published>
-    <updated>2021-10-29T04:52:27.000Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="ISSUE"><a href="#ISSUE" class="headerlink" title="ISSUE"></a>ISSUE</h3><ul><li><p>提示找不到 <code>service unit file</code></p><ul><li>通过执行<code>systemctl daemon-reload</code>和<code>systemctl --user daemon-reload</code>重载配置文件</li><li>如果是通过<code>ln</code>建立连接，那必须是建议硬链接，不支持软连接。</li></ul></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;ISSUE&quot;&gt;&lt;a href=&quot;#ISSUE&quot; class=&quot;headerlink&quot; title=&quot;ISSUE&quot;&gt;&lt;/a&gt;ISSUE&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;提示找不到 &lt;code&gt;service unit file&lt;/code&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li</summary>
-      
-    
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/categories/linux/"/>
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/tags/linux/"/>
-    
-    <category term="systemd" scheme="https://nhzex.github.io/tags/systemd/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>特殊字符</title>
-    <link href="https://nhzex.github.io/string-xc2-xa0/"/>
-    <id>https://nhzex.github.io/string-xc2-xa0/</id>
-    <published>2021-10-22T11:06:27.000Z</published>
-    <updated>2021-10-29T10:21:56.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>特殊空格：<code>\xc2\xa0</code> Non-breaking space  </p><p>相关资料  </p><ul><li><a href="https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp">https://stackoverflow.com/questions/40724543/how-to-replace-decoded-non-breakable-space-nbsp</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;特殊空格：&lt;code&gt;\xc2\xa0&lt;/code&gt; Non-breaking space  &lt;/p&gt;
-&lt;p&gt;相关资料  &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://stackoverflow.com/questions/40724543/how-to-r</summary>
-      
-    
-    
-    
-    
-    <category term="string" scheme="https://nhzex.github.io/tags/string/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用非安全端口导致浏览器阻止请求</title>
-    <link href="https://nhzex.github.io/err-unsafe-port/"/>
-    <id>https://nhzex.github.io/err-unsafe-port/</id>
-    <published>2021-10-15T14:16:28.000Z</published>
-    <updated>2021-10-15T14:29:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>浏览器给出的错误代码<code>ERR_UNSAFE_PORT</code>  </p><h3 id="临时解决方案"><a href="#临时解决方案" class="headerlink" title="临时解决方案"></a>临时解决方案</h3><p><code>Chrome</code>添加参数可临时解除屏蔽<code>--explicitly-allowed-ports=87,6666,556,6667</code>  </p><h3 id="建议解决方案"><a href="#建议解决方案" class="headerlink" title="建议解决方案"></a>建议解决方案</h3><p>避免使用以下端口提供<code>http</code>服务：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br></pre></td><td class="code"><pre><span class="line">1,      // tcpmux</span><br><span class="line">7,      // echo</span><br><span class="line">9,      // discard</span><br><span class="line">11,     // systat</span><br><span class="line">13,     // daytime</span><br><span class="line">15,     // netstat</span><br><span class="line">17,     // qotd</span><br><span class="line">19,     // chargen</span><br><span class="line">20,     // ftp data</span><br><span class="line">21,     // ftp access</span><br><span class="line">22,     // ssh</span><br><span class="line">23,     // telnet</span><br><span class="line">25,     // smtp</span><br><span class="line">37,     // time</span><br><span class="line">42,     // name</span><br><span class="line">43,     // nicname</span><br><span class="line">53,     // domain</span><br><span class="line">69,     // tftp</span><br><span class="line">77,     // priv-rjs</span><br><span class="line">79,     // finger</span><br><span class="line">87,     // ttylink</span><br><span class="line">95,     // supdup</span><br><span class="line">101,    // hostriame</span><br><span class="line">102,    // iso-tsap</span><br><span class="line">103,    // gppitnp</span><br><span class="line">104,    // acr-nema</span><br><span class="line">109,    // pop2</span><br><span class="line">110,    // pop3</span><br><span class="line">111,    // sunrpc</span><br><span class="line">113,    // auth</span><br><span class="line">115,    // sftp</span><br><span class="line">117,    // uucp-path</span><br><span class="line">119,    // nntp</span><br><span class="line">123,    // NTP</span><br><span class="line">135,    // loc-srv /epmap</span><br><span class="line">137,    // netbios</span><br><span class="line">139,    // netbios</span><br><span class="line">143,    // imap2</span><br><span class="line">161,    // snmp</span><br><span class="line">179,    // BGP</span><br><span class="line">389,    // ldap</span><br><span class="line">427,    // SLP (Also used by Apple Filing Protocol)</span><br><span class="line">465,    // smtp+ssl</span><br><span class="line">512,    // print / exec</span><br><span class="line">513,    // login</span><br><span class="line">514,    // shell</span><br><span class="line">515,    // printer</span><br><span class="line">526,    // tempo</span><br><span class="line">530,    // courier</span><br><span class="line">531,    // chat</span><br><span class="line">532,    // netnews</span><br><span class="line">540,    // uucp</span><br><span class="line">548,    // AFP (Apple Filing Protocol)</span><br><span class="line">554,    // rtsp</span><br><span class="line">556,    // remotefs</span><br><span class="line">563,    // nntp+ssl</span><br><span class="line">587,    // smtp (rfc6409)</span><br><span class="line">601,    // syslog-conn (rfc3195)</span><br><span class="line">636,    // ldap+ssl</span><br><span class="line">993,    // ldap+ssl</span><br><span class="line">995,    // pop3+ssl</span><br><span class="line">1719,   // h323gatestat</span><br><span class="line">1720,   // h323hostcall</span><br><span class="line">1723,   // pptp</span><br><span class="line">2049,   // nfs</span><br><span class="line">3659,   // apple-sasl / PasswordServer</span><br><span class="line">4045,   // lockd</span><br><span class="line">5060,   // sip</span><br><span class="line">5061,   // sips</span><br><span class="line">6000,   // X11</span><br><span class="line">6566,   // sane-port</span><br><span class="line">6665,   // Alternate IRC [Apple addition]</span><br><span class="line">6666,   // Alternate IRC [Apple addition]</span><br><span class="line">6667,   // Standard IRC [Apple addition]</span><br><span class="line">6668,   // Alternate IRC [Apple addition]</span><br><span class="line">6669,   // Alternate IRC [Apple addition]</span><br><span class="line">6697,   // IRC + TLS</span><br><span class="line">10080,  // Amanda</span><br></pre></td></tr></table></figure><h3 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h3><ul><li><a href="https://blog.csdn.net/testcs_dn/article/details/39186225">https://blog.csdn.net/testcs_dn/article/details/39186225</a></li><li><a href="https://superuser.com/a/188070">https://superuser.com/a/188070</a></li><li><a href="https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc">https://chromium.googlesource.com/chromium/src.git/+/refs/heads/main/net/base/port_util.cc</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;浏览器给出的错误代码&lt;code&gt;ERR_UNSAFE_PORT&lt;/code&gt;  &lt;/p&gt;
-&lt;h3 id=&quot;临时解决方案&quot;&gt;&lt;a href=&quot;#临时解决方案&quot; class=&quot;headerlink&quot; title=&quot;临时解决方案&quot;&gt;&lt;/a&gt;临时解决方案&lt;/h3&gt;&lt;p&gt;&lt;code&gt;</summary>
-      
-    
-    
-    
-    
-    <category term="network" scheme="https://nhzex.github.io/tags/network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHP IDE 提示增强</title>
-    <link href="https://nhzex.github.io/php-ide-helper/"/>
-    <id>https://nhzex.github.io/php-ide-helper/</id>
-    <published>2021-10-11T16:59:21.000Z</published>
-    <updated>2021-10-11T17:01:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><ul><li><a href="https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html">https://www.jetbrains.com/help/phpstorm/ide-advanced-metadata.html</a></li><li><a href="https://github.com/barryvdh/laravel-ide-helper">https://github.com/barryvdh/laravel-ide-helper</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;资料收集&quot;&gt;&lt;a href=&quot;#资料收集&quot; class=&quot;headerlink&quot; title=&quot;资料收集&quot;&gt;&lt;/a&gt;资料收集&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.jetbrains.com/help/phpstorm/ide-adv</summary>
-      
-    
-    
-    
-    
-    <category term="php" scheme="https://nhzex.github.io/tags/php/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PHP 泛型</title>
-    <link href="https://nhzex.github.io/php-generics/"/>
-    <id>https://nhzex.github.io/php-generics/</id>
-    <published>2021-10-11T16:56:24.000Z</published>
-    <updated>2021-10-11T17:01:22.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="资料收集"><a href="#资料收集" class="headerlink" title="资料收集"></a>资料收集</h2><ul><li><a href="https://blog.jetbrains.com/phpstorm/2021/07/phpstorm-2021-2-release/#generics">https://blog.jetbrains.com/phpstorm/2021/07/phpstorm-2021-2-release/#generics</a></li><li><a href="https://github.com/phpstan/phpstan/issues/2922">https://github.com/phpstan/phpstan/issues/2922</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;资料收集&quot;&gt;&lt;a href=&quot;#资料收集&quot; class=&quot;headerlink&quot; title=&quot;资料收集&quot;&gt;&lt;/a&gt;资料收集&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://blog.jetbrains.com/phpstorm/2021/07/php</summary>
-      
-    
-    
-    
-    
-    <category term="php" scheme="https://nhzex.github.io/tags/php/"/>
     
   </entry>
   
