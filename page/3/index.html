@@ -156,7 +156,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">41</span>
+          <span class="site-state-item-count">42</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -199,6 +199,105 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/mysql-exists/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="zxin">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="zxin Blog">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/mysql-exists/" class="post-title-link" itemprop="url">mysql exists 用法记录</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2021-10-29 18:16:50 / 修改时间：18:41:06" itemprop="dateCreated datePublished" datetime="2021-10-29T18:16:50+08:00">2021-10-29</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/mysql/" itemprop="url" rel="index"><span itemprop="name">mysql</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>256</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>1 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p><code>exists</code>用于检查子查询是否至少会返回一行数据，该子查询实际上并不返回任何数据，而是返回值<code>true</code>或<code>false</code>。 </p>
+<p>例子：排除已经关联的用户</p>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">SELECT</span> <span class="operator">*</span> <span class="keyword">FROM</span> `<span class="keyword">user</span>` <span class="keyword">WHERE</span> <span class="keyword">NOT</span> <span class="keyword">EXISTS</span> ( <span class="keyword">SELECT</span> `id` <span class="keyword">FROM</span> `user_assign` <span class="keyword">WHERE</span> user_id <span class="operator">=</span> admin_user.id )</span><br></pre></td></tr></table></figure>
+
+<p>参考</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://segmentfault.com/a/1190000038464558">Mysql exists用法小记</a></li>
+<li><a target="_blank" rel="noopener" href="https://dev.mysql.com/doc/refman/8.0/en/exists-and-not-exists-subqueries.html">Subqueries with EXISTS or NOT EXISTS</a></li>
+<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/14190788/subqueries-with-exists-vs-in-mysql">Subqueries with EXISTS vs IN - MySQL</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/J080624/article/details/72910548">MySQL - exists与in及any的用法</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
@@ -1374,135 +1473,6 @@
 
 
 
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="https://nhzex.github.io/php-exception/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="zxin">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="zxin Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/php-exception/" class="post-title-link" itemprop="url">php 内置异常记录</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2021-10-11 14:35:04 / 修改时间：14:42:48" itemprop="dateCreated datePublished" datetime="2021-10-11T14:35:04+08:00">2021-10-11</time>
-    </span>
-
-  
-    <span class="post-meta-break"></span>
-    <span class="post-meta-item" title="本文字数">
-      <span class="post-meta-item-icon">
-        <i class="far fa-file-word"></i>
-      </span>
-      <span class="post-meta-item-text">本文字数：</span>
-      <span>1.1k</span>
-    </span>
-    <span class="post-meta-item" title="阅读时长">
-      <span class="post-meta-item-icon">
-        <i class="far fa-clock"></i>
-      </span>
-      <span class="post-meta-item-text">阅读时长 &asymp;</span>
-      <span>1 分钟</span>
-    </span>
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="文档索引"><a href="#文档索引" class="headerlink" title="文档索引"></a>文档索引</h2><ul>
-<li>[预定义异常] <a target="_blank" rel="noopener" href="https://www.php.net/manual/zh/reserved.exceptions.php">https://www.php.net/manual/zh/reserved.exceptions.php</a></li>
-<li>[SPL异常] <a target="_blank" rel="noopener" href="https://www.php.net/manual/zh/spl.exceptions.php">https://www.php.net/manual/zh/spl.exceptions.php</a></li>
-</ul>
-<hr>
-<h2 id="部分明细"><a href="#部分明细" class="headerlink" title="部分明细"></a>部分明细</h2><ul>
-<li><p><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.errorexception.php#class.errorexception">ErrorException</a>  错误异常。</p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.logicexception.php">LogicException</a>  表示程序逻辑错误的异常。这种异常应直接导致代码中的修复。</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.badfunctioncallexception.php">BadFunctionCallException</a>  如果回调引用未定义的函数或缺少某些参数，则抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.badmethodcallexception.php">BadMethodCallException</a>  当一个回调方法是一个未定义的方法或缺失一些参数时会抛出该异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.domainexception.php">DomainException</a>  如果值不符合定义的有效数据域，则抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.invalidargumentexception.php">InvalidArgumentException</a>  如果参数不是预期类型，则抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.lengthexception.php">LengthException</a>  如果长度无效，则抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.outofrangeexception.php">OutOfRangeException</a>  请求非法索引时抛出异常。这表示应在编译时检测到的错误。</li>
-</ul>
-</li>
-<li><p><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.runtimeexception.php">RuntimeException</a>  如果发生只能在运行时发现的错误，则抛出异常。</p>
-<ul>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.outofboundsexception.php">OutOfBoundsException</a>  如果值不是有效键，则抛出异常。这表示在编译时无法检测到的错误。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.overflowexception.php">OverflowException</a>  将元素添加到完整容器时抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.rangeexception.php">RangeException</a>  抛出异常以指示程序执行期间的范围错误。通常这意味着除了/溢出之外还有一个算术错误。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.underflowexception.php">UnderflowException</a>  在空容器上执行无效操作（例如删除元素）时抛出异常。</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.unexpectedvalueexception.php">UnexpectedValueException</a>  如果值与一组值不匹配，则抛出异常。通常，当函数调用另一个函数并且期望返回值是某个类型或值（不包括算术或缓冲区相关的错误）时，会发生这种情况。</li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2 id="SPL-Exceptions-Class-Tree"><a href="#SPL-Exceptions-Class-Tree" class="headerlink" title="SPL Exceptions Class Tree"></a><a target="_blank" rel="noopener" href="http://php.net/manual/zh/spl.exceptions.php#spl.exceptions.tree">SPL Exceptions Class Tree</a></h2><ul>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.logicexception.php">LogicException</a> (extends <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.exception.php">Exception</a>)<ul>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.badfunctioncallexception.php">BadFunctionCallException</a><ul>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.badmethodcallexception.php">BadMethodCallException</a></li>
-</ul>
-</li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.domainexception.php">DomainException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.invalidargumentexception.php">InvalidArgumentException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.lengthexception.php">LengthException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.outofrangeexception.php">OutOfRangeException</a></li>
-</ul>
-</li>
-<li><a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.runtimeexception.php">RuntimeException</a> (extends <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.exception.php">Exception</a>)<ul>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.outofboundsexception.php">OutOfBoundsException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.overflowexception.php">OverflowException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.rangeexception.php">RangeException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.underflowexception.php">UnderflowException</a></li>
-<li>  <a target="_blank" rel="noopener" href="http://php.net/manual/zh/class.unexpectedvalueexception.php">UnexpectedValueException</a></li>
-</ul>
-</li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
   <nav class="pagination">
     <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="page-number" href="/page/5/">5</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
   </nav>
@@ -1527,13 +1497,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">22k</span>
+    <span title="站点总字数">24k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">20 分钟</span>
+    <span title="站点阅读时长">21 分钟</span>
   </span>
 </div>
   <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/" rel="noopener" target="_blank">NexT.Gemini</a> 强力驱动
