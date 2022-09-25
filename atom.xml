@@ -6,7 +6,7 @@
   <link href="https://nhzex.github.io/atom.xml" rel="self"/>
   
   <link href="https://nhzex.github.io/"/>
-  <updated>2022-08-07T02:46:36.000Z</updated>
+  <updated>2022-09-25T13:43:46.000Z</updated>
   <id>https://nhzex.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AT Device</title>
+    <link href="https://nhzex.github.io/at_device/"/>
+    <id>https://nhzex.github.io/at_device/</id>
+    <published>2022-09-25T13:34:55.000Z</published>
+    <updated>2022-09-25T13:43:46.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="密码错误，再重试一遍" data-whm="文章不能被校验，不过您还是能看看解密后的内容">  <script id="hbeData" type="hbeData" data-hmacdigest="266bf24246176887250aabb03e976860dbcb7c8dcc94baeda7b10a6f06f1e518">66c9cb7f85419e75f8959c1d6312a3592ba006e16d130935d194f34c7a95a2b5b702d11c41e0fb827ba0c5b8e1e90c3255ae094b96c16f256cc3f6a4968fa0000129ba0ffac420330a0ee3a2a59ab07468498f53f91ed230f54be941f69ba9768d684afba7ec1bd91dbef3c8063e1550f9ec53148120e225fa67c2cb97e62c955fe7eee67faf7972d99d8eb449d92c95ef279193665decafd2d9d395dc17ce0e3aa069b4c3c603cb3c7c3e334a66da0ab24124c4279124ef18035ec2d308d5b9c5ddd31a5f0f26659648bd9ba7b0d61a8580f920e12628392e1a501c5798c8f39b4e89741554a450ed814fa481f386c86afffd14f5eff2bd18f9fbffb9ac0be0a55e213b6fcaa9303d3b38ccbd05d2998d3f4163894877df6e8e844fffd31cc07efe207afc9c658a934a0b138cf3c6b3067be3c4e53991b0174562c1838d6532d320ca076b140a5014c195f5f4a53f17bda876e680dd70c09c0cee10be677c9ac68f8950709cbfd4cac25c1a251bf285e16a795c8578cb73365bc0ba0b1f01c994d189b27f4993f886a71fa655200f40343effb4736a59bc76354c929e1e268410628e93e955f20dfa76fbbfc3e10303527964d766a464d154d78f377af47463dba3677c8b42ef12532d12aefce81bc8020aab7fb75555acd60732c26a0cdf9c4abedf068b22fba77110636c03c84b85e840d02b8079fddb881c50c6df0d6f0d1d861dca5ed0af66af5f4085352a116971b45fe08612792b09ece84908e8fd15a0cf1460dc0e3fb7a6f53a6a1b9c27683e2fdf240ebe3fc04849f5a43aded08ca8f1029ce1a82d9dc84469cc68dcc8d60fa970bc901162d577cb418aebd5771709e4c429ef80b6c887661c559dbf6928bebbffa32146dac8dbd6ea1f23f858e6a32b60f350fd75d091579015ec0b7d12784f2d5053b07d5e68b70e449b174e4733e8bc956f1aa9e82da7ff6449ca9da9e0bec7f19ae943d99657037503cdb67b8efc67413dae4c0f6499723d50b948b712d4049b0c8ae0a4d2850baafce81de1228b0dbe120b7ba57f84fff02bf595b54c293ed62c867656a88e0d9ebc3c2e87621447d8c1ec3a5767f6cd067f577229d9d57d0e1eb2f904dfe951de92783323c4f3093a415f1ff7f67ff2f3cf5055c232e6695e786de45668bc3fde0672d931ad5ff3e056eed6e7ee764288b64c6d0131df7e31a7b760cbd283eb15007443a8b745b19145882b9903257ff0417da5f3ff6ab0f144f0ca2b44197903df4a2e4ffa9a54885f4dd94c7d6d6c61dbe6cb1cae25cf058c878ec0b28f68bf1c2d14138c603fc36ec30cb150645ba5ea2cfd967a2854950c4a12df63d2d396f7edd27b1ebc7b3f756239bf36feb89272b4af569918af11c5bcd57515c3df67dd1a2f45f1a9e690fa7cd30a96de3fa8bdbc037d701bad953d19fe4b8d5de3a379aedaf04d57212d95296679520a6c34e68a2e05f009a3bf16945a173685fd9ced0e44f53e497fdcc2d9ce9a4e53092db3f85ea4f1fa36d3628c91c1aa5835d806357cb2ce98b7f2b1dc958b16967642d1109eae180386545311ae4d0bc3f9f349b44af5215168099fd7682967167122edf5690191747a46354dfef35b0b231bde6875b50592e827de4ae76960518b215c979812eaa56693d56f22af1d9038ebdb7fcb4f6e189e81e97d0d83818227aecae6f6b9ff54403f69bc22ae015a9844997be8fe02475b52cc9dcd1788a4a326a27bfa27ff69f7def22731c99ea30f9a6ecc7edcb91c03b31e385722e94635dff7dd59e309e4ba90d73fb7322bf101d6c014efd0</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">需要输入密码！</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">这是一篇加密文章，内容可能是个人日常吐槽或者特殊技术分享。</summary>
+    
+    
+    
+    
+    <category term="secret" scheme="https://nhzex.github.io/tags/secret/"/>
+    
+    <category term="sms" scheme="https://nhzex.github.io/tags/sms/"/>
+    
+    <category term="phone" scheme="https://nhzex.github.io/tags/phone/"/>
+    
+    <category term="at" scheme="https://nhzex.github.io/tags/at/"/>
+    
+  </entry>
   
   <entry>
     <title>wordpress</title>
@@ -439,34 +464,6 @@
     
     
     <category term="git" scheme="https://nhzex.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>linux 用户管理</title>
-    <link href="https://nhzex.github.io/linux-user-management/"/>
-    <id>https://nhzex.github.io/linux-user-management/</id>
-    <published>2021-10-29T10:24:19.000Z</published>
-    <updated>2021-10-29T10:38:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h2><ul><li>addgroup</li><li>adduser</li><li>passwd</li><li>chpasswd</li></ul><h2 id="文件"><a href="#文件" class="headerlink" title="文件"></a>文件</h2><ul><li>/etc/passwd</li><li>/etc/shadow</li><li>/etc/group</li><li>/etc/gshadow</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li><a href="https://zhuanlan.zhihu.com/p/41161408">列出 Linux 系统上所有用户的 3 种方法</a></li><li><a href="https://blog.whsir.com/post-5341.html">adduser和addgroup命令讲解</a></li><li><a href="https://segmentfault.com/a/1190000024532631">Ubuntu群组管理</a></li><li><a href="http://manpages.ubuntu.com/manpages/trusty/man8/adduser.8.html">Ubuntu man adduser</a></li></ul>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;命令&quot;&gt;&lt;a href=&quot;#命令&quot; class=&quot;headerlink&quot; title=&quot;命令&quot;&gt;&lt;/a&gt;命令&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;addgroup&lt;/li&gt;
-&lt;li&gt;adduser&lt;/li&gt;
-&lt;li&gt;passwd&lt;/li&gt;
-&lt;li&gt;chpasswd&lt;/li&gt;</summary>
-      
-    
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/categories/linux/"/>
-    
-    
-    <category term="linux" scheme="https://nhzex.github.io/tags/linux/"/>
     
   </entry>
   
